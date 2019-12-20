@@ -36,6 +36,3 @@ Group Scout Leader – 1st Nanpantan Scouts
 ## Find Us
 
 [Find Us](https://goo.gl/maps/X8FtP2yMQGx)
-
-
-© Copyright Nanpantan Scouts 2018. All Rights Reserved. Charity number: 521761
