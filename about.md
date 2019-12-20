@@ -33,24 +33,8 @@ Group Scout Leader – 1st Nanpantan Scouts
 
 10½-14 years. Build confidence, resilience and a sense of adventure 
 
-## Links
+## Find Us
 
-[Loughborough District Scouts](https://www.loughboroughscouts.org.uk/) 
-
-[Leicestershire Scouts](http://www.leicestershirescouts.org.uk/)
-
-[The Scout Association](https://scouts.org.uk/)
-
-## Badge Requirements
-
-[Beavers](https://scouts.org.uk/beavers)
-[Cubs](https://scouts.org.uk/cubs)
-[Scouts](https://scouts.org.uk/scouts)
-
-## Contact Us
-
-[Facebook](https://www.facebook.com/NanpantanScouts/)
-[Twitter](https://twitter.com/NanpantanScouts)
 [Find Us](https://goo.gl/maps/X8FtP2yMQGx)
 
 
