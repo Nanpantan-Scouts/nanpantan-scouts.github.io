@@ -1,4 +1,3 @@
-## Links
 
 [Online Scout Manager](https://www.onlinescoutmanager.co.uk/login.php)
 
