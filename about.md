@@ -17,21 +17,34 @@ When a Beaver Scout wakes up the morning after a sleepover, or a Cub Scout has j
 Come and join us and be part of our adventure
 
 Carl Travis-Roberts
+
 Group Scout Leader – 1st Nanpantan Scouts
 
-## What we Do
+## What We Do
 
-### Beavers
+1st Nanpantan has all three sections of scouting meeting on different nights of the week 
 
-6-8 years. Make friends and try new indoor and outdoor activities
+### [Beavers](https://www.scouts.org.uk/beavers)
 
-### Cubs 
+6 to 8 years. 
 
-8-10½ years. Learn practical skills while having adventures with friends
+Try new things. Make new friends. Joining Beavers is just the beginning of your big adventure.
 
-### Scouts
+### [Cubs](https://www.scouts.org.uk/cubs) 
 
-10½-14 years. Build confidence, resilience and a sense of adventure 
+8 to 10½ years. 
+
+Develop new skills. Soar to great heights. Being a Cub opens up a whole other world.
+
+### [Scouts](https://www.scouts.org.uk/scouts)
+
+10½ to 14 years. 
+
+Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and go for it, and soon so will you.
+
+## Joining
+
+To join our waitlist please send us a message on our [Facebook](https://www.facebook.com/NanpantanScouts) page. 
 
 ## Find Us
 
