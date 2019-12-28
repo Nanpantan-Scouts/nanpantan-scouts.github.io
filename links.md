@@ -1,5 +1,7 @@
 ## Links
 
+[Online Scout Manager](https://www.onlinescoutmanager.co.uk/login.php)
+
 [Loughborough District Scouts](https://www.loughboroughscouts.org.uk/) 
 
 [Leicestershire Scouts](http://www.leicestershirescouts.org.uk/)
