@@ -3,8 +3,6 @@ layout: post
 title: January Fundraising Update
 ---
 
-# Welcome to our January 2020 fund raising newsletter
-
 Firstly a “Thank You” to you all for your support in 2019. This means that we start 2020 with a total of £21,000 raised so far, towards the building of the new hut. The target is £250,000 and we hope to raise much of this during 2020 so please please please spare a few minutes to read this newsletter and support wherever you can.  
 
 All support is appreciated, whether it be the donation of a raffle prize, baking a cake, helping out at an event or joining the fund-raising team. All help is very much appreciated.  
