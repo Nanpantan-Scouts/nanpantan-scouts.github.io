@@ -30,17 +30,23 @@ Group Scout Leader – 1st Nanpantan Scouts
 
 Try new things. Make new friends. Joining Beavers is just the beginning of your big adventure.
 
+Wednesday & Friday, 6:00 pm - 7:15 pm
+
 ### [Cubs](https://www.scouts.org.uk/cubs) 
 
 8 to 10½ years. 
 
 Develop new skills. Soar to great heights. Being a Cub opens up a whole other world.
 
+Monday & Thursday, 6:45 pm - 8:15 pm
+
 ### [Scouts](https://www.scouts.org.uk/scouts)
 
 10½ to 14 years. 
 
 Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and go for it, and soon so will you.
+
+Tuesday, 7:15 pm - 9:00 pm & Wednesday, 7:30 pm - 9:15 pm
 
 ## Joining
 
