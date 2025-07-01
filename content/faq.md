@@ -4,6 +4,23 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
+## Useful Links
+
+[Online Scout Manager](https://www.onlinescoutmanager.co.uk/login.php)
+
+[Loughborough District Scouts](https://www.loughboroughscouts.org.uk/) 
+
+[Leicestershire Scouts](http://www.leicestershirescouts.org.uk/)
+
+[The Scout Association](https://scouts.org.uk/)
+
+## Badge Requirements
+
+[Beavers](https://scouts.org.uk/beavers)
+[Cubs](https://scouts.org.uk/cubs)
+[Scouts](https://scouts.org.uk/scouts)
+
+
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 
 ## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?

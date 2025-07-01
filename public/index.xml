@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>1st Nanpantan Scouts</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 1st Nanpantan Scouts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Categories Post</title>
-      <link>http://localhost:1313/blog/2021/08/01/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:1313/blog/2021/08/01/categories-post/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a post with multiple categories in the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Categories Post</title>
       <link>http://localhost:1313/categories-post/</link>
@@ -23,11 +16,39 @@
       <description>&lt;p&gt;I&amp;rsquo;m a post with multiple categories in the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Linked post</title>
-      <link>http://localhost:1313/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/blog/2015/10/02/linked-post/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
+      <title>Family quiz night - 14th March</title>
+      <link>http://localhost:1313/blog/2020/01/29/2020-01-29-family-quiz-night/</link>
+      <pubDate>Wed, 29 Jan 2020 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2020/01/29/2020-01-29-family-quiz-night/</guid>
+      <description>&lt;p&gt;Fund raiser - helping to raise much needed fund for a new Scout hut.&#xA;Please come along to join the fun. Hot supper included.&lt;/p&gt;&#xA;&lt;p&gt;Details &amp;amp; tickets - &lt;a href=&#34;https://www.facebook.com/events/172429794029429/&#34;&gt;https://www.facebook.com/events/172429794029429/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>January Fundraising Update</title>
+      <link>http://localhost:1313/blog/2020/01/07/2020-01-07-january-fundraising-update/</link>
+      <pubDate>Tue, 07 Jan 2020 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2020/01/07/2020-01-07-january-fundraising-update/</guid>
+      <description>&lt;p&gt;Firstly a “Thank You” to you all for your support in 2019. This means that we start 2020 with a total of £21,000 raised so far, towards the building of the new hut. The target is £250,000 and we hope to raise much of this during 2020 so please please please spare a few minutes to read this newsletter and support wherever you can.&lt;/p&gt;&#xA;&lt;p&gt;All support is appreciated, whether it be the donation of a raffle prize, baking a cake, helping out at an event or joining the fund-raising team. All help is very much appreciated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Merry Christmas</title>
+      <link>http://localhost:1313/blog/2019/12/25/2019-12-25-merry-christmas/</link>
+      <pubDate>Wed, 25 Dec 2019 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2019/12/25/2019-12-25-merry-christmas/</guid>
+      <description>&lt;p&gt;Hi all,&lt;/p&gt;&#xA;&lt;p&gt;Merry Christmas to all at 1st Nanpantan Scouts for 2019, and wishing you a Happy New Year.&lt;/p&gt;&#xA;&lt;p&gt;From&lt;/p&gt;&#xA;&lt;p&gt;1st Nanpantan Leadership team&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Santa Fun Run</title>
+      <link>http://localhost:1313/blog/2019/11/27/2019-11-27-santa-run/</link>
+      <pubDate>Wed, 27 Nov 2019 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2019/11/27/2019-11-27-santa-run/</guid>
+      <description>&lt;p&gt;Good luck to the 16 Santas running on Sunday&amp;rsquo;s Santa Fun Run. One of the runners has set up a crowfunding page to raise her sponsorship if anyone would like to sponsor her.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.justgiving.com/crowdfunding/alison-lawton-devine-1?utm_source=Facebook&amp;amp;utm_medium=Yimbyprojectpage&amp;amp;utm_content=alison-lawton-devine-1&amp;amp;utm_campaign=projectpage-share-owner&amp;amp;utm_term=yjqnKBzPR&amp;amp;fbclid=IwAR1yY3vqVXJANxM7EjgrbhILcafgE7tjFtLrbGeYTi28LunlbNISSAUw4WM&#34;&gt;Sponsor&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/santarun.png&#34; alt=&#34;Santa&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Building</title>
+      <link>http://localhost:1313/blog/2019/11/12/2019-11-12-new-building/</link>
+      <pubDate>Tue, 12 Nov 2019 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2019/11/12/2019-11-12-new-building/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/hutplan.png&#34; alt=&#34;Hut Plan&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the plan for our new scout building. We are looking for local groups who would be interested in using the hall during daytimes, weekends and holidays. Or maybe to use the availability of the hall to start a new group in Nanpantan. If you know of any groups, please message me and I will make contact. Thank you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linked post</title>
@@ -38,24 +59,10 @@
     </item>
     <item>
       <title>Go is for lovers</title>
-      <link>http://localhost:1313/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      <guid>http://localhost:1313/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://go.dev/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Go is for lovers</title>
       <link>http://localhost:1313/go-is-for-lovers/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       <guid>http://localhost:1313/go-is-for-lovers/</guid>
       <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://go.dev/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      <guid>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
     </item>
     <item>
       <title>Hugo is for lovers</title>
@@ -66,17 +73,17 @@
     </item>
     <item>
       <title>Creating a new theme</title>
-      <link>http://localhost:1313/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:1313/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Creating a new theme</title>
       <link>http://localhost:1313/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       <guid>http://localhost:1313/creating-a-new-theme/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hello,&lt;/p&gt;&#xA;&lt;p&gt;Welcome to 1st Nanpantan Scouts website. Situated on the south side of Loughborough in Leicestershire, we have sections meeting every night of the week.&lt;/p&gt;&#xA;&lt;p&gt;Scouting provides fun, friendship, exciting activities, contributing to the community and improving life chances in terms of education and employment.&lt;/p&gt;&#xA;&lt;p&gt;Through the adventure of Scouting, young people get to try exciting activities in a safe environment and have their first taste of responsibility. We give young people experiences they will never forget. The sort of adventure we offer is the chance to experience something different and the opportunity for young people to discover their potential.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
@@ -90,14 +97,7 @@
       <link>http://localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/faq/</guid>
-      <description>&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ static/&#xA;        ▾ images/&#xA;            logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.onlinescoutmanager.co.uk/login.php&#34;&gt;Online Scout Manager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.loughboroughscouts.org.uk/&#34;&gt;Loughborough District Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.leicestershirescouts.org.uk/&#34;&gt;Leicestershire Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/&#34;&gt;The Scout Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;badge-requirements&#34;&gt;Badge Requirements&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/beavers&#34;&gt;Beavers&lt;/a&gt;&#xA;&lt;a href=&#34;https://scouts.org.uk/cubs&#34;&gt;Cubs&lt;/a&gt;&#xA;&lt;a href=&#34;https://scouts.org.uk/scouts&#34;&gt;Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrate from Jekyll</title>
