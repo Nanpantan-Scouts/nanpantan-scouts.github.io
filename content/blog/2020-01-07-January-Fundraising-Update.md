@@ -3,7 +3,7 @@ title = "January Fundraising Update"
 date = "2020-01-07T21:29:20+02:00"
 tags = ["building", "hut", "fundraising"]
 categories = ["building","hut","fundraising"]
-banner = "img/banners/banner-1.jpg"
+banner = "img/banners/banner4.jpg"
 authors = ["Carl Travis-Roberts"]
 +++
 

@@ -52,30 +52,32 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Sections"
     identifier = "menu.sections"
-    url        = "/img/template-easy-customize.png"
+    # url        = "/img/template-easy-customize.png"
     weight     = 3
 
 [[menu.main]]
     name       = "Squirrels"
-    identifier = "section.squirrels"
     url        = ""
     weight     = 1
     parent     = "menu.sections"
-    post       = 1
 
 [[menu.main]]
     name       = "Beavers"
-    identifier = "section.beavers"
     url        = ""
     weight     = 2
     parent     = "menu.sections"
-    post       = 2
 
 [[menu.main]]
-    name       = "Thursday"
+    name       = "Cubs"
     url        = ""
-    weight     = 1
-    parent     = "section.squirrels"
+    weight     = 3
+    parent     = "menu.sections"
+
+[[menu.main]]
+    name       = "Scouts"
+    url        = ""
+    weight     = 4
+    parent     = "menu.sections"          
 
 [[menu.main]]
     name       = "Blog"
@@ -142,7 +144,7 @@ pluralizelisttitles = false
     longitude = "-1.24461"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -179,7 +181,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>1st Nanpantan Scout Group</p>"
-    copyright = "Copyright (c) 2015 - 2016, 1st Nanpantan Scout Group; all rights reserved."
+    copyright = "Copyright (c) 2015 - 2025, 1st Nanpantan Scout Group; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -191,7 +193,7 @@ pluralizelisttitles = false
 
     logo = "img/Logo.jpg"
     logo_small = "img/Logo.jpg"
-    contact_url = "/contact"
+    contact_url = "mailto:info@nanpantanscouts.org.uk"
     address = """<p class="text-uppercase"><strong>1st Nanpantan Scout Group</strong>
         <br>Nanpantan Road
         <br>Loughborough
@@ -208,7 +210,7 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on info@nanpantanscouts.org.uk.</p>
+    text = """<p>Providing everyday adventure for young people in Loughborough</p><p class="hidden-sm hidden-xs">Contact us on info@nanpantanscouts.org.uk.</p>
       <p class="hidden-md hidden-lg">
       <a href="mailto:info@nanpantanscouts.org.uk" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
@@ -274,8 +276,8 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "Latest News"
+    subtitle = "Recent Goings on at 1st Nanpantan Scout Group"
     hide_summary = false
 
 [params.footer.recent_posts]

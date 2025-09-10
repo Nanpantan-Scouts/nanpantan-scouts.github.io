@@ -17,7 +17,7 @@ authors = ["Carl Travis-Roberts"]
 
 ## Badge Requirements
 
-[Squirrals](https://scouts.org.uk/squirrels)
+[Squirrels](https://scouts.org.uk/squirrels)
 
 [Beavers](https://scouts.org.uk/beavers)
 

@@ -26,7 +26,7 @@ Group Scout Leader – 1st Nanpantan Scouts
 
 1st Nanpantan has all three sections of scouting meeting on different nights of the week 
 
-### [Squirrals](https://www.scouts.org.uk/squirrals)
+### [Squirrels](https://www.scouts.org.uk/squirrels)
 
 4 - 6 years. 
 

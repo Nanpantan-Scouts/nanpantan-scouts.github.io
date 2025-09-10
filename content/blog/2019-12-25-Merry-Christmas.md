@@ -3,7 +3,7 @@ title = "Merry Christmas"
 date = "2019-12-25T21:29:20+02:00"
 tags = ["christmas"]
 categories = ["christmas"]
-banner = "img/banners/banner-5.jpg"
+banner = "img/banners/banner-4.jpg"
 authors = ["Carl Travis-Roberts"]
 +++
 

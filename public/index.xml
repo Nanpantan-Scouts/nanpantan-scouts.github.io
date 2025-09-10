@@ -6,14 +6,14 @@
     <description>Recent content on 1st Nanpantan Scouts</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 21:29:20 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categories Post</title>
-      <link>http://localhost:1313/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:1313/categories-post/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a post with multiple categories in the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
+      <title>Grand Opening</title>
+      <link>http://localhost:1313/blog/2025/08/10/2025-08-10-grand-opening/</link>
+      <pubDate>Sun, 10 Aug 2025 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2025/08/10/2025-08-10-grand-opening/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re so excited to share that our new facilities will be officially opened on Saturday 13 September. Join us from 1.45pm for the ribbon-cutting, games, fun and refreshments.&lt;/p&gt;&#xA;&lt;p&gt;We will also draw our annual raffle at this event so please donate a prize if you can or buy tickets to try your luck (tickets will come home with your little people in the first week of term)&lt;/p&gt;&#xA;&lt;p&gt;Look forward to sharing this momentous event with you all.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Family quiz night - 14th March</title>
@@ -51,39 +51,11 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/hutplan.png&#34; alt=&#34;Hut Plan&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the plan for our new scout building. We are looking for local groups who would be interested in using the hall during daytimes, weekends and holidays. Or maybe to use the availability of the hall to start a new group in Nanpantan. If you know of any groups, please message me and I will make contact. Thank you.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Linked post</title>
-      <link>http://localhost:1313/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/linked-post/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Go is for lovers</title>
-      <link>http://localhost:1313/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      <guid>http://localhost:1313/go-is-for-lovers/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://go.dev/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>http://localhost:1313/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    <item>
-      <title>Admissions</title>
+      <title>Admissions Policy</title>
       <link>http://localhost:1313/admissions/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       <guid>http://localhost:1313/admissions/</guid>
       <description>&lt;h1 id=&#34;1st-nanpantan-scout-group-admissions-policy&#34;&gt;1st Nanpantan Scout Group Admissions Policy&lt;/h1&gt;&#xA;&lt;p&gt;The aim of 1st Nanpantan Scouts is to provide as many opportunities to as many young people as possible through scouting. To ensure a fair and transparent admissions system, the following has been agreed upon by the Trustees.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;general-admissions&#34;&gt;General Admissions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Places for older sections will be offered to those who are already part of 1st Nanpantan as a priority over newcomers.&lt;/li&gt;&#xA;&lt;li&gt;Wait lists will be open as spaces become available. Wait lists will then be closed when there are sufficient young people on the list (for example, 30 names on the Squirrels waitlist).&lt;/li&gt;&#xA;&lt;li&gt;Facebook will be used to provide up-to-date information on which lists are or are not open at any one time.&lt;/li&gt;&#xA;&lt;li&gt;If a child is unable to attend any section, they are not able to hold a place by paying until their child is old enough for the next section.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;squirrels&#34;&gt;Squirrels&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Waiting List:&lt;/strong&gt; Only those under 4 will be able to put their name into the waiting list. It is recommended to add your child to the waiting list as soon as you can.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Offer of a Place:&lt;/strong&gt; The places available depend on how many children are leaving that term to move to Beavers. A place will be offered based on position on the waiting list once a child turns 4. A place at Squirrels will only be offered once. If the place is not taken up or you don’t feel your child is ready, there is the option to move onto the Beavers waiting list. It is not possible for a Squirrels place to be postponed until the child is older.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;beavers&#34;&gt;Beavers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Waiting List:&lt;/strong&gt; This waiting list is only for those who were on the Squirrels waiting list. It is not possible to join this list in any other way.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Offer of a Place:&lt;/strong&gt; A place will be offered as soon as one becomes available, based on the position on the waiting list once the child turns 6. A place at Beavers will only be offered once. This could be for either a Tuesday or Wednesday evening depending on spaces. If the place is not taken up, the child will be taken off the waiting list system for 1st Nanpantan.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;other-sections-scoutscubsbeavers&#34;&gt;Other Sections (Scouts/Cubs/Beavers)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If space becomes available in any of these sections, it will be advertised on Facebook, and young people will be taken on a first-come, first-served basis. This is unlikely and should not be relied upon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;minimum-attendance-policy&#34;&gt;Minimum Attendance Policy&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Our group requires each young person to attend a minimum of 50% of the meetings each term, unless extenuating circumstances apply. If this is not met, the place may be offered to another young person.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;volunteer-status&#34;&gt;Volunteer Status&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adults who undertake a commitment to weekly volunteering as a uniformed leader with 1st Nanpantan scouts will have an opportunity for their child to join as soon as a space becomes available.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;loughborough-scout-groups&#34;&gt;Loughborough Scout Groups&lt;/h3&gt;&#xA;&lt;p&gt;You can find the location of some of the groups &lt;a href=&#34;https://goo.gl/maps/jdauA5GazJGxQYbx5&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Creating a new theme</title>
-      <link>http://localhost:1313/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:1313/creating-a-new-theme/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
@@ -100,25 +72,11 @@
       <description>&lt;p&gt;Hello,&lt;/p&gt;&#xA;&lt;p&gt;Welcome to 1st Nanpantan Scouts website. Situated on the south side of Loughborough in Leicestershire, we have sections meeting every night of the week.&lt;/p&gt;&#xA;&lt;p&gt;Scouting provides fun, friendship, exciting activities, contributing to the community and improving life chances in terms of education and employment.&lt;/p&gt;&#xA;&lt;p&gt;Through the adventure of Scouting, young people get to try exciting activities in a safe environment and have their first taste of responsibility. We give young people experiences they will never forget. The sort of adventure we offer is the chance to experience something different and the opportunity for young people to discover their potential.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h1 id=&#34;we-are-here-to-help-you&#34;&gt;We are here to help you&lt;/h1&gt;&#xA;&lt;p&gt;Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.&lt;/p&gt;&#xA;&lt;p&gt;Please feel free to contact us, our customer service center is working for you 24/7.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>FAQ</title>
       <link>http://localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/faq/</guid>
-      <description>&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.onlinescoutmanager.co.uk/login.php&#34;&gt;Online Scout Manager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.loughboroughscouts.org.uk/&#34;&gt;Loughborough District Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.leicestershirescouts.org.uk/&#34;&gt;Leicestershire Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/&#34;&gt;The Scout Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;badge-requirements&#34;&gt;Badge Requirements&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/squirrels&#34;&gt;Squirrals&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/beavers&#34;&gt;Beavers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/cubs&#34;&gt;Cubs&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/scouts&#34;&gt;Scouts&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>http://localhost:1313/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ images/&#xD;&#xA;        logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ static/&#xD;&#xA;        ▾ images/&#xD;&#xA;            logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.onlinescoutmanager.co.uk/login.php&#34;&gt;Online Scout Manager&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.loughboroughscouts.org.uk/&#34;&gt;Loughborough District Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.leicestershirescouts.org.uk/&#34;&gt;Leicestershire Scouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/&#34;&gt;The Scout Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;badge-requirements&#34;&gt;Badge Requirements&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/squirrels&#34;&gt;Squirrels&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/beavers&#34;&gt;Beavers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/cubs&#34;&gt;Cubs&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://scouts.org.uk/scouts&#34;&gt;Scouts&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
