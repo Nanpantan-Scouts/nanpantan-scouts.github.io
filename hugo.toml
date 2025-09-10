@@ -84,12 +84,6 @@ pluralizelisttitles = false
     weight     = 5
 
 [[menu.main]]
-    identifier = "menu.contact"
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 8
-
-[[menu.main]]
     identifier = "menu.admissions"
     name       = "Admissions"
     url        = "/admissions/"
