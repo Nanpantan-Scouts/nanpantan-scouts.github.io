@@ -1,7 +1,8 @@
 +++
-title = "About"
+title = "About Us"
 description = "About the group"
 keywords = ["FAQ","How do I","questions","what if"]
+authors = ["Carl Travis-Roberts"]
 +++
 
 
@@ -24,6 +25,12 @@ Group Scout Leader – 1st Nanpantan Scouts
 ## What We Do
 
 1st Nanpantan has all three sections of scouting meeting on different nights of the week 
+
+### [Squirrals](https://www.scouts.org.uk/squirrals)
+
+4 - 6 years. 
+
+Helping young people gain skills for life at a time when it matters most and where it's most needed
 
 ### [Beavers](https://www.scouts.org.uk/beavers)
 

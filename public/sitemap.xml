@@ -113,7 +113,13 @@
     <loc>http://localhost:1313/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/admissions/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/starting/</loc>
