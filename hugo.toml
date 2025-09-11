@@ -14,7 +14,7 @@ pluralizelisttitles = false
 [services]
     # Enable comments by entering your Disqus shortname
     [services.disqus]
-        shortname = "devcows"
+        shortname = ""
     # Enable Google Analytics by entering your tracking code
     [services.googleAnalytics]
         id = "UA-156339051-1"
@@ -57,25 +57,25 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Squirrels"
-    url        = ""
+    url        = "/about/"
     weight     = 1
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Beavers"
-    url        = ""
+    url        = "/about/"
     weight     = 2
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Cubs"
-    url        = ""
+    url        = "/about/"
     weight     = 3
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Scouts"
-    url        = ""
+    url        = "/about/"
     weight     = 4
     parent     = "menu.sections"          
 

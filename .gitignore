@@ -8,5 +8,5 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
-nanpantan-scouts/public
+public/
 .hugo_build.lock

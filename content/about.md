@@ -54,7 +54,7 @@ Monday & Thursday, 6:45 pm - 8:15 pm
 
 Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and go for it, and soon so will you.
 
-Tuesday, 7:15 pm - 9:00 pm & Wednesday, 7:30 pm - 9:15 pm
+Tuesday, 7:30 pm - 9:15 pm & Wednesday, 7:30 pm - 9:15 pm
 
 ## Joining
 
