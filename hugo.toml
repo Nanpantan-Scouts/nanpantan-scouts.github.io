@@ -126,10 +126,10 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "1st Nanpantan"
+    defaultKeywords = ["hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "1st Nanpantan Scout Group"
 
     # Social media
     facebook_site = "NanpantanScouts" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
