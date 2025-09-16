@@ -70,7 +70,7 @@ The contact details are as follows:
     * **Group Lead Volunteer**: Linda Hammond - lindahammond7@hotmail.co.uk
 * **9th Loughborough**: Outwoods Edge Primary School 
     * **Group Team Member**: Rachel Cloherty - rachael.cloherty@talktalk.net
-* **Thorpe Acres**: Thorpe Acres Scout Hut 
+* **Thorpe Acres**: Thorpe Acre Scout Hut 
     * **Group Team Member**: Mark Staples - mark.shaz83@ntlworld.com 
 * **4th Shepshed**: Shepshed Scout Hut
     * **Group Lead Volunteer**: Emily Green 
