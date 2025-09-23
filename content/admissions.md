@@ -73,6 +73,6 @@ The contact details are as follows:
 * **Thorpe Acres**: Thorpe Acre Scout Hut 
     * **Group Team Member**: Mark Staples - mark.shaz83@ntlworld.com 
 * **4th Shepshed**: Shepshed Scout Hut
-    * **Group Lead Volunteer**: Emily Green 
+    * **Group Lead Volunteer**: Emily Green - emilygreen1@hotmail.co.uk
 * **Belton & Hathern**: Shepshed Baptist Church
     * **Group Leader Volunteer**: Kate Costello - tgraeca0110@gmail.com 
