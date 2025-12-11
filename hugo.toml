@@ -91,11 +91,11 @@ pluralizelisttitles = false
     url        = "/admissions/"
     weight     = 9   
 
-[[menu.main]]
-    name       = "Venue Hire"
-    identifier = "menu.venue"
-    url        = "/venue-hire/"
-    weight     = 10    
+#[[menu.main]]
+#    name       = "Venue Hire"
+#    identifier = "menu.venue"
+#    url        = "/venue-hire/"
+#    weight     = 10    
        
 
 [[menu.main]]
