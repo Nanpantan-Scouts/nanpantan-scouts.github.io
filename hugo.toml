@@ -89,13 +89,20 @@ pluralizelisttitles = false
     identifier = "menu.admissions"
     name       = "Admissions"
     url        = "/admissions/"
-    weight     = 9    
+    weight     = 9   
+
+[[menu.main]]
+    name       = "Venue Hire"
+    identifier = "menu.venue"
+    url        = "/venue-hire/"
+    weight     = 10    
+       
 
 [[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
-    weight     = 10    
+    weight     = 100    
   
 
 # Top bar social links menu
