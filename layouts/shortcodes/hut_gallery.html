@@ -1,0 +1,78 @@
+<style>
+    .venue-gallery-wrapper {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    /* Fix the Navigation Buttons to be Arrows */
+    .venue-gallery-wrapper .owl-theme .owl-controls .owl-buttons div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+        color: #fff !important;
+        font-size: 24px !important;
+        padding: 5px 12px !important;
+        border-radius: 4px;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+        z-index: 10;
+    }
+
+    .venue-gallery-wrapper .owl-theme .owl-controls .owl-buttons div:hover {
+        opacity: 1;
+        background: #0095c6 !important; /* Scout Teal hover */
+    }
+
+    /* Image Caption Styling */
+    .venue-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+</style>
+
+<div class="container venue-gallery-wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="venue-owl" class="owl-carousel owl-theme">
+                
+                {{/* Loop through images. Format: "path::Title" */}}
+                {{ range split (.Get "images") "," }}
+                    {{ $parts := split . "::" }} {{ $src := index $parts 0 }}
+                    {{ $title := index $parts 1 }} <div class="item" style="position: relative;">
+                        <img class="img-responsive" src="{{ $src }}" alt="{{ $title }}" style="margin: 0 auto; max-height: 500px; object-fit: cover;">
+                        
+                        {{ if $title }}
+                            <div class="venue-caption">{{ $title }}</div>
+                        {{ end }}
+                    </div>
+                {{ end }}
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if (typeof jQuery !== 'undefined' && jQuery().owlCarousel) {
+            jQuery('#venue-owl').owlCarousel({
+                navigation: false,
+                // Replace text with HTML Arrows
+                navigationText: ["&#10094;", "&#10095;"], 
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                singleItem: true,
+                autoPlay: true,
+                pagination: true 
+            });
+        }
+    });
+</script>
