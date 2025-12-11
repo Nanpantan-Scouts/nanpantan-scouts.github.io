@@ -18,6 +18,8 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 * **Kitchen Facilities:** Fully equipped kitchen for catering and refreshments.
 * **Flexible Spaces:** Main hall and meeting room options to suit your needs.
 
+![Nanpantan Scout Hut](/img/venue/front.jpg)
+
 ---
 
 ## Perfect For...
