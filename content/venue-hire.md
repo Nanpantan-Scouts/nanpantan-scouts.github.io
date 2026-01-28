@@ -51,32 +51,39 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
     <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
       <th style="border: 1px solid #dddddd; padding: 12px 15px;">Space</th>
       <th style="border: 1px solid #dddddd; padding: 12px 15px;">Capacity & Details</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Learn More</th>
     </tr>
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Main Hall</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Capacity: 242 people (Standing)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Meeting Room</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Capacity: 10 people</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Kitchen</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Fully equipped (Oven, hob, fridge, kettle)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Outdoor Area</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Patio and grassy grounds</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Parking</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">~10 On-site spaces</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Amenities</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">WiFi, 3 unisex toilets, 1 accessible toilet</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
   </tbody>
 </table>
@@ -84,6 +91,76 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 {{< hut_gallery images="/img/venue/front.jpg::Venue Front,/img/venue/main-hall.jpg::Spacious Main Hall,/img/venue/meeting-room.jpg::Meeting Room,/img/venue/kitchen.jpg::Fully Equipped Kitchen,/img/venue/outside.jpg::Outside Area" >}}
 
 ---
+## Pricing
+
+Find our standard pricing below, we do have custom rates for registered charities and Scout / Guide groups - please get in touch to discuss these. 
+
+### Standard Community Rates
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 1em; font-family: sans-serif;">
+  <thead>
+    <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Rate Type</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Hall (£)</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Meeting Room (£)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekday</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">20</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Recurring Booking (Hourly)<sup>[1]</sup></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">10</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">140</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">125</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekend</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Recurring Booking (Hourly)<sup>[1]</sup></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">10</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day (8am-5pm)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">175</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">125</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-10pm)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">135</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">N/A</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-11pm)</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">165</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+[1] Weekly booking more than 4 weeks, monthly booking more than 4 months.
+
 
 ## Ready to Book?
 
@@ -149,7 +226,7 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 <div class="scout-booking-container">
   
   <div class="scout-booking-box">
-    <h3>🎉 Parties & One-off Events</h3>
+    <h3>🎉 One-off Events</h3>
     <p>Looking for a venue for a birthday party, family gathering, or single event?</p>
     <a href="LINK_TO_BOOKING_SYSTEM" class="scout-btn scout-btn-primary">Check Availability & Book</a>
   </div>
@@ -166,6 +243,10 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 </p>
 
 ---
+
+## Calender
+
+EMBED
 
 ## Frequently Asked Questions
 
