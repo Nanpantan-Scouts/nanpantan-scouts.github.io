@@ -255,6 +255,9 @@ Find our standard pricing below, we do have custom rates for registered charitie
 <p style="text-align: center; margin-top: 20px;">
   <strong>Questions?</strong> Email us at <a href="mailto:bookings@nanpantanscouts.org.uk">bookings@nanpantanscouts.org.uk</a>
 </p>
+<p style="text-align: center; margin-top: 20px;">
+  <a href="/terms-and-conditions/"><strong>Venue Hire Terms and Conditions</strong></a>
+</p>
 
 ---
 
