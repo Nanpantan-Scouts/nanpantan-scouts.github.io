@@ -221,6 +221,20 @@ Find our standard pricing below, we do have custom rates for registered charitie
     margin-top: 0;
     color: #333;
   }
+
+  .iframe-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .iframe-container iframe {
+    width: 125%;
+    min-width: 1000px;
+    height: 1000px;
+    border: 0;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+  }
 </style>
 
 <div class="scout-booking-container">
@@ -244,9 +258,13 @@ Find our standard pricing below, we do have custom rates for registered charitie
 
 ---
 
-## Calender
+## Calendar
 
-EMBED
+<div class="iframe-container">
+    <iframe 
+    src="https://outlook.office365.com/owa/calendar/42224d74e2b743569ad4db8d47098da8@nanpantanscouts.org.uk/762b1111c281408bb7042dae7da953285490094834833567024/calendar.html" 
+    ></iframe>
+</div>
 
 ## Frequently Asked Questions
 
