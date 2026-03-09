@@ -108,60 +108,22 @@ Find our standard pricing below, we do have custom rates for registered charitie
 
 ### Standard Community Rates
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 1em; font-family: sans-serif;">
-  <thead>
-    <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
-      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Rate Type</th>
-      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Hall (£)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekday</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">20</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (Hourly)<sup>[1]</sup></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">140</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekend</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Recurring Booking (Hourly)<sup>[1]</sup></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day (8am-5pm)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">175</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-10pm)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">135</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-11pm)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">165</td>
-    </tr>
-  </tbody>
-</table>
-
-[1] Weekly booking more than 4 weeks, monthly booking more than 4 months.
+| Period           | One Off Booking (£) | Regular Users (£) |
+|------------------|---------------------|----------------------|
+| Hourly Weekday   | 20                  | 15                   |
+| Hourly Weekend   | 25                  | 20                   |
+| Full Day Weekday | 140                 | Enquire              |
+| Full Day Weekend | 175                 | Enquire              |
+| Evening Saturday | 195                 | -                    |
+| Evening Sunday   | 165                 | -                    |
 
 
+#### Additional Information
+- Minimum booking 3 hours at weekends
+- Full day bookings from 8 am to 4:30 om (5:00 pm on weekends)
+- Saturday evening bookings from 5:30 pm to 12:00 am
+- Sunday evening bookings from 5:30 pm to 11:00 am
+- Refundable security deposit of £100 required for weekend evening bookings
 ## Ready to Book?
 
 <style>
