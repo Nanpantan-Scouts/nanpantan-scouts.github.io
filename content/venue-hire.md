@@ -18,6 +18,30 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 * **Kitchen Facilities:** Fully equipped kitchen for catering and refreshments.
 * **Flexible Spaces:** Main hall and meeting room options to suit your needs.
 
+<div class="scout-booking-container">
+  
+  <div class="scout-booking-box">
+    <h3>🎉 One-off Events</h3>
+    <p>Looking for a venue for a birthday party, family gathering, or single event?</p>
+    <a href="LINK_TO_BOOKING_SYSTEM" class="scout-btn scout-btn-primary">Check Availability & Book</a>
+  </div>
+
+  <div class="scout-booking-box">
+    <h3>📅 Regular Classes & Groups</h3>
+    <p>Want to host a weekly yoga class, club, or committee meeting?</p>
+    <a href="LINK_TO_ENQUIRY_FORM" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
+  </div>
+
+</div>
+
+</div>
+<p style="text-align: center; margin-top: 20px;">
+  <strong>Questions?</strong> Email us at <a href="mailto:bookings@nanpantanscouts.org.uk">bookings@nanpantanscouts.org.uk</a>
+</p>
+<p style="text-align: center; margin-top: 20px;">
+  <a href="/terms-and-conditions/"><strong>Venue Hire Terms and Conditions</strong></a>
+</p>
+
 ![Nanpantan Scout Hut](/img/venue/front.jpg)
 
 ---
@@ -82,7 +106,7 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Amenities</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">WiFi, 3 unisex toilets, 1 accessible toilet</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">WiFi, 3 unisex toilets, baby changing, 1 accessible toilet</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
   </tbody>
@@ -117,7 +141,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Recurring Booking (Hourly)<sup>[1]</sup></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (Hourly)<sup>[1]</sup></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">10</td>
     </tr>
@@ -265,7 +289,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
 
 <div class="iframe-container">
     <iframe 
-    src="https://outlook.office365.com/owa/calendar/42224d74e2b743569ad4db8d47098da8@nanpantanscouts.org.uk/762b1111c281408bb7042dae7da953285490094834833567024/calendar.html" 
+    src="https://outlook.office365.com/owa/calendar/c7e0c5471b124c51b4257bce71c14f9f@nanpantanscouts.org.uk/07f1e90a2eb3455196bb8fd7dd8851058626683598447757973/calendar.html?view=week" 
     ></iframe>
 </div>
 
