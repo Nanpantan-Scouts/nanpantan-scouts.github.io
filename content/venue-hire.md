@@ -1,8 +1,10 @@
 +++
 title = "Nanpantan Scout Hut - Venue Hire | Parties & Events in Loughborough"
-description = "Hire the Nanpantan Scout Hut for your next event. Modern spacious hall, meeting room, kitchen facilities, and parking available. Ideal for parties, classes, and community groups."
+description = "Hire the Nanpantan Scout Hut for your next event. Modern spacious hall, kitchen facilities, and parking available. Ideal for parties, classes, and community groups."
 keywords = ["hall hire", "Loughborough", "kids parties", "community center", "Charnwood", "event venue"]
 authors = ["Carl Travis-Roberts"]
+sidebar = false
+disable_sidebar = true
 +++
 
 # Nanpantan Scout Hut Venue Hire
@@ -11,12 +13,12 @@ authors = ["Carl Travis-Roberts"]
 
 **Welcome to the 1st Nanpantan Scout Hut.**
 
-Perfect for children's parties, yoga classes, committee meetings, and community events, our modern building offers flexible spaces with excellent facilities on the edge of Loughborough.
+Perfect for children's parties, yoga classes and community events, our modern building offers flexible spaces with excellent facilities on the edge of Loughborough.
 
 * **Brand New Building:** Modern, clean facilities built to the highest standards.
 * **Parking Available:** Convenient on-site parking for easy access.
 * **Kitchen Facilities:** Fully equipped kitchen for catering and refreshments.
-* **Flexible Spaces:** Main hall and meeting room options to suit your needs.
+* **Flexible Spaces:** Flexible main hall to suit your needs.
 
 <div class="scout-booking-container">
   
@@ -28,21 +30,17 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 
   <div class="scout-booking-box">
     <h3>📅 Regular Classes & Groups</h3>
-    <p>Want to host a weekly yoga class, club, or committee meeting?</p>
+    <p>Want to host a weekly yoga class, club or group?</p>
     <a href="LINK_TO_ENQUIRY_FORM" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
   </div>
-
 </div>
-
-</div>
-<p style="text-align: center; margin-top: 20px;">
-  <strong>Questions?</strong> Email us at <a href="mailto:bookings@nanpantanscouts.org.uk">bookings@nanpantanscouts.org.uk</a>
-</p>
+<div>
 <p style="text-align: center; margin-top: 20px;">
   <a href="/terms-and-conditions/"><strong>Venue Hire Terms and Conditions</strong></a>
 </p>
+</div>
 
-![Nanpantan Scout Hut](/img/venue/front.jpg)
+{{< hut_gallery images="/img/venue/front.jpg::Venue Front,/img/venue/main-hall.jpg::Spacious Main Hall,/img/venue/kitchen.jpg::Fully Equipped Kitchen,/img/venue/outside.jpg::Outside Area" >}}
 
 ---
 
@@ -61,10 +59,6 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
 * Clean, warm, and modern environment.
 * Convenient monthly payment options.
 
-### Meetings & Groups
-* Dedicated meeting room separate from the hall.
-* Available during weekdays.
-* Professional setting ideal for committees.
 
 ---
 
@@ -82,11 +76,6 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Main Hall</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Capacity: 242 people (Standing)</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
-    </tr>
-    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Meeting Room</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">Capacity: 10 people</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><a href="#pricing">View Pricing</a></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
@@ -112,8 +101,6 @@ Perfect for children's parties, yoga classes, committee meetings, and community 
   </tbody>
 </table>
 
-{{< hut_gallery images="/img/venue/front.jpg::Venue Front,/img/venue/main-hall.jpg::Spacious Main Hall,/img/venue/meeting-room.jpg::Meeting Room,/img/venue/kitchen.jpg::Fully Equipped Kitchen,/img/venue/outside.jpg::Outside Area" >}}
-
 ---
 ## Pricing
 
@@ -126,59 +113,48 @@ Find our standard pricing below, we do have custom rates for registered charitie
     <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
       <th style="border: 1px solid #dddddd; padding: 12px 15px;">Rate Type</th>
       <th style="border: 1px solid #dddddd; padding: 12px 15px;">Hall (£)</th>
-      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Meeting Room (£)</th>
     </tr>
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekday</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">20</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (Hourly)<sup>[1]</sup></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">10</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">140</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">125</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Weekend</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"></td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">One off Booking (Hourly)</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">15</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Recurring Booking (Hourly)<sup>[1]</sup></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">25</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">10</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Full Day (8am-5pm)</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">175</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">125</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-10pm)</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">135</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">N/A</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">Evening (5.30pm-11pm)</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px;">165</td>
-      <td style="border: 1px solid #dddddd; padding: 12px 15px;">N/A</td>
     </tr>
   </tbody>
 </table>
