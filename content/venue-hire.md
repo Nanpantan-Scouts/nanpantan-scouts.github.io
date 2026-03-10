@@ -30,7 +30,7 @@ Perfect for children's parties, yoga classes and community events, our modern bu
 
   <div class="scout-booking-box">
     <h3>📅 Regular Classes & Groups</h3>
-    <p>Want to host a weekly yoga class, club or group?</p>
+    <p>Want to host a weekly yoga class, club or group? Are you a registered charity, scout or guide group?</p>
     <a href="https://eu.jotform.com/form/252754579520060?whatWould=Make%20an%20Enquiry%20(Recurring%20or%20Bookings%20etc)" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
   </div>
 </div>
@@ -104,19 +104,51 @@ Perfect for children's parties, yoga classes and community events, our modern bu
 ---
 ## Pricing
 
-Find our standard pricing below, we do have custom rates for registered charities and Scout / Guide groups - please get in touch to discuss these. 
+Find our standard pricing below, we do have custom rates for registered charities and Scout / Guide groups - please get in touch using the enquiries form to discuss these. 
 
 ### Standard Community Rates
 
-| Period           | One Off Booking (£) | Regular Users (£) |
-|------------------|---------------------|----------------------|
-| Hourly Weekday   | 20                  | 15                   |
-| Hourly Weekend   | 25                  | 20                   |
-| Full Day Weekday | 140                 | Enquire              |
-| Full Day Weekend | 175                 | Enquire              |
-| Evening Saturday | 195                 | -                    |
-| Evening Sunday   | 165                 | -                    |
-
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 1em; font-family: sans-serif;">
+  <thead>
+    <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Period</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">One Off Booking (£)</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (£)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Hourly Weekday</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">20</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">15</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Hourly Weekend</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">25</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">20</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Full Day Weekday</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">140</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">Enquire</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Full Day Weekend</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">175</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">Enquire</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Evening Saturday</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">195</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">-</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #dddddd; background-color: #f9f9f9;">
+      <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Evening Sunday</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">165</td>
+      <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">-</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Additional Information
 - Minimum booking 3 hours at weekends
@@ -209,14 +241,12 @@ Find our standard pricing below, we do have custom rates for registered charitie
 
   <div class="scout-booking-box">
     <h3>📅 Regular Classes & Groups</h3>
-    <p>Want to host a weekly yoga class, club, or committee meeting?</p>
+    <p>Want to host a weekly yoga class, club, or committee meeting? Are you a registered charity, scout or guide group?</p>
     <a href="https://eu.jotform.com/form/252754579520060?whatWould=Make%20an%20Enquiry%20(Recurring%20or%20Bookings%20etc)" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
   </div>
 
 </div>
-<p style="text-align: center; margin-top: 20px;">
-  <strong>Questions?</strong> Email us at <a href="mailto:bookings@nanpantanscouts.org.uk">bookings@nanpantanscouts.org.uk</a>
-</p>
+
 <p style="text-align: center; margin-top: 20px;">
   <a href="/terms-and-conditions/"><strong>Venue Hire Terms and Conditions</strong></a>
 </p>
@@ -224,6 +254,10 @@ Find our standard pricing below, we do have custom rates for registered charitie
 ---
 
 ## Calendar
+
+<p style="text-align: center; margin-top: 20px;">
+  <strong>Change from Month to Week view (top right) to see hourly availability!</strong>
+</p>
 
 <div class="iframe-container">
     <iframe 
