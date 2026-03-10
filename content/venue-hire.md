@@ -25,13 +25,13 @@ Perfect for children's parties, yoga classes and community events, our modern bu
   <div class="scout-booking-box">
     <h3>🎉 One-off Events</h3>
     <p>Looking for a venue for a birthday party, family gathering, or single event?</p>
-    <a href="LINK_TO_BOOKING_SYSTEM" class="scout-btn scout-btn-primary">Check Availability & Book</a>
+    <a href="https://eu.jotform.com/form/252754579520060?whatWould=Book%20a%20Space%20(One%20Off%20Booking)" class="scout-btn scout-btn-primary">Check Availability & Book</a>
   </div>
 
   <div class="scout-booking-box">
     <h3>📅 Regular Classes & Groups</h3>
     <p>Want to host a weekly yoga class, club or group?</p>
-    <a href="LINK_TO_ENQUIRY_FORM" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
+    <a href="https://eu.jotform.com/form/252754579520060?whatWould=Make%20an%20Enquiry%20(Recurring%20or%20Bookings%20etc)" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
   </div>
 </div>
 <div>
@@ -204,13 +204,13 @@ Find our standard pricing below, we do have custom rates for registered charitie
   <div class="scout-booking-box">
     <h3>🎉 One-off Events</h3>
     <p>Looking for a venue for a birthday party, family gathering, or single event?</p>
-    <a href="LINK_TO_BOOKING_SYSTEM" class="scout-btn scout-btn-primary">Check Availability & Book</a>
+    <a href="https://eu.jotform.com/form/252754579520060?whatWould=Book%20a%20Space%20(One%20Off%20Booking)" class="scout-btn scout-btn-primary">Check Availability & Book</a>
   </div>
 
   <div class="scout-booking-box">
     <h3>📅 Regular Classes & Groups</h3>
     <p>Want to host a weekly yoga class, club, or committee meeting?</p>
-    <a href="LINK_TO_ENQUIRY_FORM" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
+    <a href="https://eu.jotform.com/form/252754579520060?whatWould=Make%20an%20Enquiry%20(Recurring%20or%20Bookings%20etc)" class="scout-btn scout-btn-secondary">Enquire About Hiring</a>
   </div>
 
 </div>
