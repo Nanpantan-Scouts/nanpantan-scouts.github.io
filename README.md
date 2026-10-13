@@ -30,11 +30,10 @@ The site is a static site built with [Hugo](https://gohugo.io/), using the [Univ
 | `content/` | The pages, written in Markdown (`about.md`, `faq.md`, `admissions.md`, `venue-hire.md`, …) |
 | `content/blog/` | News posts, one file per post |
 | `data/carousel/` | Homepage slideshow, one YAML file per slide (Squirrels, Beavers, Cubs, Scouts) |
-| `data/features/`, `data/clients/`, `data/testimonials/` | Example data from the theme. These sections are commented out in `layouts/index.html`, so they don't appear on the homepage. |
 | `layouts/` | Our customised copies of theme templates. A file here replaces the theme file with the same path. `layouts/index.html` is the homepage. |
 | `layouts/shortcodes/hut_gallery.html` | The photo gallery shortcode used on the venue hire page |
-| `static/` | Images, CSS and JavaScript, copied to the site as-is: `static/img/logo.png` becomes `/img/logo.png` |
-| `i18n/` | Translations of the theme's built-in text (buttons, labels and so on) |
+| `static/` | Images, CSS, JavaScript and documents, copied to the site as-is: `static/img/Logo.jpg` becomes `/img/Logo.jpg`. Only our own files and ones we've changed live here; the theme supplies the rest. |
+| `i18n/en.yaml` | Our changes to the theme's built-in English text (buttons, labels and so on) |
 | `archetypes/` | The template `hugo new` uses for new content |
 | `Dockerfile`, `docker-compose.yml` | Run the site locally in Docker (see below) |
 
@@ -63,6 +62,7 @@ More text here. Normal **Markdown** works, including [links](https://example.com
 ```
 
 - Put images in `static/img/`. Refer to them as `img/...` in `banner` and as `/img/...` in the post itself.
+- Resize photos before adding them: about 1200px wide and under 300 KB is plenty. Photos straight from a phone are often 3–5 MB and slow the site down on mobile data.
 - The post appears at `/blog/YYYY/MM/DD/<file-name>/`, using the `date` in the front matter.
 - Add `draft = true` to keep a post off the live site while you work on it. The local dev server still shows drafts.
 - A post with a future `date` won't be published until a build runs after that date.
