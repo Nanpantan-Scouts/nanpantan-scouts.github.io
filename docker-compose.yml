@@ -1,0 +1,39 @@
+# Local development for the 1st Nanpantan Scouts website. See README.md.
+#
+#   docker compose up                  # dev server  -> http://localhost:1313
+#   docker compose up --build preview  # production build served by nginx -> http://localhost:8080
+
+services:
+  # Live-reloading Hugo dev server. The repo is mounted into the container, so
+  # edits on your machine show up in the browser straight away.
+  dev:
+    build:
+      context: .
+      target: dev
+    image: nanpantan-scouts-dev
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+      - hugo-cache:/cache
+    # Run as your user so anything Hugo writes into the repo (e.g. ./public)
+    # isn't owned by root. Defaults to 1000, the usual first user on WSL.
+    user: "${UID:-1000}:${GID:-1000}"
+
+  # Production build of the site served by nginx, to check the real output
+  # (minified, no drafts) before pushing. Only started when asked for by name.
+  preview:
+    build:
+      context: .
+      target: preview
+      args:
+        BASE_URL: http://localhost:8080/
+    image: nanpantan-scouts-preview
+    ports:
+      - "8080:80"
+    profiles:
+      - preview
+
+volumes:
+  # Downloaded theme module and Go build cache, kept between runs.
+  hugo-cache:
