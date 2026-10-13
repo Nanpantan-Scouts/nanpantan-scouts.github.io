@@ -50,7 +50,7 @@ Perfect for children's parties, yoga classes and community events, our modern bu
 * Spacious main hall with room to run around.
 * Kitchen access included for party food.
 * Indoor and outdoor areas available.
-* Available until 10pm (11pm Saturdays).
+* Available until 11pm (midnight on Saturdays).
 * **Bouncy castles welcome!**
 
 ### Regular Classes
@@ -152,7 +152,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
 
 #### Additional Information
 - Minimum booking 3 hours at weekends
-- Full day bookings from 8 am to 4:30 om (5:00 pm on weekends)
+- Full day bookings from 8 am to 4:30 pm (5:00 pm on weekends)
 - A refundable security deposit of £50 is required for all one off bookings, refundable within 21 days of the booking date
 - [Building and Fire Risk Assessment](.././docs/Building_and_Fire_Risk_Assessment_Nanpantan_Scouts_V1.pdf)
 <!-- - Saturday evening bookings from 5:30 pm to 12:00 am
@@ -270,7 +270,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
 ## Frequently Asked Questions
 
 **What are the opening hours?**
-The hall can be hired until 10pm Sunday–Friday, and until 11pm on Saturdays. Please ensure your booking period includes adequate time for both setting up and clearing away.
+The hall can be hired until 11pm Sunday–Friday, and until midnight on Saturdays. Please ensure your booking period includes adequate time for both setting up and clearing away.
 
 **How do I pay for my booking?**
 Payment is required by bank transfer to secure your booking.

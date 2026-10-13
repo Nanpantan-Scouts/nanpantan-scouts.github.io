@@ -2,7 +2,6 @@
 title = "Links"
 date = "2015-06-24T13:50:46+02:00"
 description = "Useful Links"
-banner = "img/banners/banner-1.jpg"
 authors = ["Carl Travis-Roberts"]
 +++
 

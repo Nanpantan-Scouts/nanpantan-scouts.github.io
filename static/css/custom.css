@@ -11,3 +11,9 @@
 .box-simple {
   min-height: 230px;
 }
+
+/* Stop images in posts and pages from overflowing on small screens */
+#content img {
+  max-width: 100%;
+  height: auto;
+}

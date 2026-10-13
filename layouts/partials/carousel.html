@@ -12,7 +12,7 @@
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     {{ if .href }}
-                    <a href="{{ .href }}" target="_blank" title="{{ .title | safeHTML }}">
+                    <a href="{{ .href }}"{{ if hasPrefix .href "http" }} target="_blank"{{ end }} title="{{ .title | safeHTML }}">
                     {{ end }}
                         <div class="row">
                             <div class="col-sm-5 right">
