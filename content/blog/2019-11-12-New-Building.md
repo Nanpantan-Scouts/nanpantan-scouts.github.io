@@ -3,7 +3,7 @@ title = "New Building"
 date = "2019-11-12T21:29:20+02:00"
 tags = ["building", "hut"]
 categories = ["building","hut"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/hutplan.png"
 authors = ["Carl Travis-Roberts"]
 +++
 

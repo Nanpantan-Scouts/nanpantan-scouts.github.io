@@ -35,11 +35,12 @@ pluralizelisttitles = false
     weight     = 1
     parent     = "menu.about"
 
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "menu.about"    
+# No team page yet - restore this entry when there is one
+# [[menu.main]]
+#     name       = "Our Team"
+#     url        = "/team/"
+#     weight     = 2
+#     parent     = "menu.about"
 
 [[menu.main]]
     name       = "Sections"
@@ -49,25 +50,25 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Squirrels"
-    url        = "/about/"
+    url        = "/about/#squirrels"
     weight     = 1
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Beavers"
-    url        = "/about/"
+    url        = "/about/#beavers"
     weight     = 2
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Cubs"
-    url        = "/about/"
+    url        = "/about/#cubs"
     weight     = 3
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Scouts"
-    url        = "/about/"
+    url        = "/about/#scouts"
     weight     = 4
     parent     = "menu.sections"          
 
@@ -126,14 +127,14 @@ pluralizelisttitles = false
 [params]
     viewMorePostLink = "/blog/"
     author = "1st Nanpantan"
-    defaultKeywords = ["hugo", "go"]
+    defaultKeywords = ["scouts", "Nanpantan", "Loughborough", "squirrels", "beavers", "cubs"]
     mainSections = ["blog"]
-    defaultDescription = "1st Nanpantan Scout Group"
+    defaultDescription = "Scouting for young people aged 4 to 14 in Nanpantan, Loughborough: Squirrels, Beavers, Cubs and Scouts."
 
     # Social media
     facebook_site = "NanpantanScouts" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "NanpantanScouts" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    default_sharing_image = "img/NanpantanLinearLogo.jpg"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = true
@@ -180,7 +181,8 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>1st Nanpantan Scout Group</p>"
-    copyright = "Copyright (c) 2015 - 2025, 1st Nanpantan Scout Group; all rights reserved."
+    # {year} is replaced with the year the site was last built
+    copyright = "Copyright (c) 2015 - {year}, 1st Nanpantan Scout Group; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"

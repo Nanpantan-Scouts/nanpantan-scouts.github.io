@@ -1,14 +1,14 @@
 +++
 title = "About Us"
-description = "About the group"
-keywords = ["FAQ","How do I","questions","what if"]
+description = "About 1st Nanpantan Scout Group: our sections, age ranges and meeting times in Nanpantan, Loughborough."
+keywords = ["about", "Squirrels", "Beavers", "Cubs", "Scouts", "Loughborough"]
 authors = ["Carl Travis-Roberts"]
 +++
 
 
 Hello,
 
-Welcome to 1st Nanpantan Scouts website. Situated on the south side of Loughborough in Leicestershire, we have sections meeting every night of the week.
+Welcome to 1st Nanpantan Scouts website. Situated on the south side of Loughborough in Leicestershire, we have sections meeting every weekday evening.
 
 Scouting provides fun, friendship, exciting activities, contributing to the community and improving life chances in terms of education and employment.
 
@@ -24,7 +24,7 @@ Group Scout Leader – 1st Nanpantan Scouts
 
 ## What We Do
 
-1st Nanpantan has all three sections of scouting meeting on different nights of the week 
+1st Nanpantan runs four sections of Scouting:
 
 ### [Squirrels](https://www.scouts.org.uk/squirrels)
 

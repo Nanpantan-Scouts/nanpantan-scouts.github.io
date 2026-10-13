@@ -3,7 +3,7 @@ title = "Family quiz night - 14th March"
 date = "2020-01-29T21:29:20+02:00"
 tags = ["quiz", "info", "fundraising"]
 categories = ["quiz","info","fundraising"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/Logo.jpg"
 authors = ["Carl Travis-Roberts"]
 +++
 

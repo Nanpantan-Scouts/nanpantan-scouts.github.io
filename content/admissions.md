@@ -1,10 +1,6 @@
 +++
 title = "Admissions Policy"
-date = "2015-06-24T13:50:46+02:00"
-tags = ["theme"]
-categories = ["starting"]
 description = "Admissions Information"
-banner = "img/banners/banner-1.jpg"
 authors = ["Carl Travis-Roberts"]
 +++
 
@@ -33,7 +29,7 @@ The aim of 1st Nanpantan Scouts is to provide as many opportunities to as many y
 ### Beavers
 
 * **Waiting List:** This waiting list is only for those who were on the Squirrels waiting list. It is not possible to join this list in any other way.
-* **Offer of a Place:** A place will be offered as soon as one becomes available, based on the position on the waiting list once the child turns 6. A place at Beavers will only be offered once. This could be for either a Tuesday or Wednesday evening depending on spaces. If the place is not taken up, the child will be taken off the waiting list system for 1st Nanpantan.
+* **Offer of a Place:** A place will be offered as soon as one becomes available, based on the position on the waiting list once the child turns 6. A place at Beavers will only be offered once. This could be for any of our Beavers meeting nights, depending on spaces. If the place is not taken up, the child will be taken off the waiting list system for 1st Nanpantan.
 
 ---
 
@@ -59,20 +55,14 @@ The aim of 1st Nanpantan Scouts is to provide as many opportunities to as many y
 
 You can find the location of some of the groups [here](https://goo.gl/maps/jdauA5GazJGxQYbx5).
 
-The contact details are as follows:
+Other Scout groups nearby:
 
 * **1st Loughborough**: Fearon Hall, Rectory Road
-    * **Group Lead Volunteer**: Richard Thorpe - richard@tyto.me.uk
-    * **Group Team Member**: Liam Ruddy - liamruddy@yahoo.co.uk 
-* **3rd Loughborough**: Cobden School 
-    * **Group Team Member**: Paul Callis - callisfamily@btinternet.com
-* **7th Loughborough**: Emmanuel Old church Hall 
-    * **Group Lead Volunteer**: Linda Hammond - lindahammond7@hotmail.co.uk
-* **9th Loughborough**: Outwoods Edge Primary School 
-    * **Group Team Member**: Rachel Cloherty - rachael.cloherty@talktalk.net
-* **Thorpe Acres**: Thorpe Acre Scout Hut 
-    * **Group Team Member**: Mark Staples - mark.shaz83@ntlworld.com 
+* **3rd Loughborough**: Cobden School
+* **7th Loughborough**: Emmanuel Old Church Hall
+* **9th Loughborough**: Outwoods Edge Primary School
+* **Thorpe Acres**: Thorpe Acre Scout Hut
 * **4th Shepshed**: Shepshed Scout Hut
-    * **Group Lead Volunteer**: Emily Green - emilygreen1@hotmail.co.uk
 * **Belton & Hathern**: Shepshed Baptist Church
-    * **Group Leader Volunteer**: Kate Costello - tgraeca0110@gmail.com 
+
+To get in touch with one of these groups, contact [Loughborough District Scouts](https://www.loughboroughscouts.org.uk/).
