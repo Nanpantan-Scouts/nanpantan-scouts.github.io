@@ -112,8 +112,8 @@ Find our standard pricing below, we do have custom rates for registered charitie
   <thead>
     <tr style="background-color: #0095c6; color: #ffffff; text-align: left;">
       <th style="border: 1px solid #dddddd; padding: 12px 15px;">Period</th>
-      <th style="border: 1px solid #dddddd; padding: 12px 15px;">One Off Booking (£)</th>
-      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (£)</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">One Off Booking (£/h)</th>
+      <th style="border: 1px solid #dddddd; padding: 12px 15px;">Regular Users (£/h)</th>
     </tr>
   </thead>
   <tbody>
@@ -137,7 +137,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">175</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">Enquire</td>
     </tr>
-    <tr style="border-bottom: 1px solid #dddddd;">
+    <!-- <tr style="border-bottom: 1px solid #dddddd;">
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Evening Saturday</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">195</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">-</td>
@@ -146,16 +146,18 @@ Find our standard pricing below, we do have custom rates for registered charitie
       <td style="border: 1px solid #dddddd; padding: 12px 15px;"><strong>Evening Sunday</strong></td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">165</td>
       <td style="border: 1px solid #dddddd; padding: 12px 15px; text-align: center;">-</td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>
 
 #### Additional Information
 - Minimum booking 3 hours at weekends
 - Full day bookings from 8 am to 4:30 om (5:00 pm on weekends)
-- Saturday evening bookings from 5:30 pm to 12:00 am
-- Sunday evening bookings from 5:30 pm to 11:00 am
-- Refundable security deposit of £100 required for weekend evening bookings
+- A refundable security deposit of £50 is required for all one off bookings, refundable within 21 days of the booking date
+- [Building and Fire Risk Assessment](.././docs/Building_and_Fire_Risk_Assessment_Nanpantan_Scouts_V1.pdf)
+<!-- - Saturday evening bookings from 5:30 pm to 12:00 am
+- Sunday evening bookings from 5:30 pm to 11:00 am -->
+
 ## Ready to Book?
 
 <style>
@@ -272,7 +274,7 @@ The hall can be hired until 10pm Sunday–Friday, and until 11pm on Saturdays. P
 
 **How do I pay for my booking?**
 Payment is required by bank transfer to secure your booking.
-* **One-off bookings:** Full payment and deposit are due at the time of booking.
+* **One-off bookings:** Full payment and refundable deposit are due at the time of booking.
 * **Recurring bookings:** One month's hire is paid upfront, followed by monthly invoices payable within 28 days.
 
 **What is your cancellation policy?**
