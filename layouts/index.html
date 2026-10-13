@@ -14,13 +14,18 @@
 
         {{ partial "nav.html" . }}
 
-        {{ partial "carousel.html" . }}
+        {{ partial "home-hero.html" . }}
 
-        {{ partial "recent_posts.html" . }}
+        <section class="home-sections">
+            <div class="container">
+                <h2 class="home-heading">Our sections</h2>
+                {{ partial "section-cards.html" . }}
+            </div>
+        </section>
 
-        <div class="iframe-container">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNanpantanScouts%2F&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="600" width="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-        </div>
+        {{ partial "home-news.html" . }}
+
+        {{ partial "home-venue.html" . }}
 
         {{ partial "footer.html" . }}
 

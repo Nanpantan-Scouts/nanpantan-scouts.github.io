@@ -29,10 +29,11 @@ The site is a static site built with [Hugo](https://gohugo.io/), using the [Univ
 | `hugo.toml` | Site settings: title, menus, top bar, contact details, map location, theme options |
 | `content/` | The pages, written in Markdown (`about.md`, `faq.md`, `admissions.md`, `venue-hire.md`, …) |
 | `content/blog/` | News posts, one file per post |
-| `data/carousel/` | Homepage slideshow, one YAML file per slide (Squirrels, Beavers, Cubs, Scouts) |
-| `layouts/` | Our customised copies of theme templates. A file here replaces the theme file with the same path. `layouts/index.html` is the homepage. |
-| `layouts/shortcodes/hut_gallery.html` | The photo gallery shortcode used on the venue hire page |
+| `data/sections/` | One file per section (Squirrels, Beavers, Cubs, Scouts): ages, **meeting times**, uniform, photo and colour. The homepage cards, section pages, About page and FAQ all read from here, so change meeting times here only. |
+| `layouts/` | Our customised copies of theme templates. A file here replaces the theme file with the same path. `layouts/index.html` is the homepage, built from the `home-*.html` partials. |
+| `layouts/shortcodes/` | Snippets you can use in pages: `section-facts`, `section-cards` and `section-times` (from `data/sections`), `join-button` (the "Message us on Facebook" button), `booking-options` (venue booking boxes) and `hut_gallery` (venue photo gallery) |
 | `static/` | Images, CSS, JavaScript and documents, copied to the site as-is: `static/img/Logo.jpg` becomes `/img/Logo.jpg`. Only our own files and ones we've changed live here; the theme supplies the rest. |
+| `static/css/style.purple.css` | The theme's colour scheme, changed to Scouts purple and the Nunito Sans font. Leave it alone and put changes in `static/css/custom.css`. |
 | `i18n/en.yaml` | Our changes to the theme's built-in English text (buttons, labels and so on) |
 | `archetypes/` | The template `hugo new` uses for new content |
 | `Dockerfile`, `docker-compose.yml` | Run the site locally in Docker (see below) |

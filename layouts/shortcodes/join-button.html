@@ -1,0 +1,5 @@
+{{/* "Message us on Facebook" button. Optional text: {{< join-button "Ask about volunteering" >}} */}}
+<p>
+    <a href="{{ site.Params.messenger_url }}" class="btn-cta" target="_blank" rel="noopener"><i class="fab fa-facebook-messenger" aria-hidden="true"></i> {{ .Get 0 | default "Message us on Facebook" }}</a>
+    <a href="https://www.facebook.com/{{ site.Params.facebook_site }}" class="btn-cta btn-cta-outline" target="_blank" rel="noopener">See our Facebook page</a>
+</p>

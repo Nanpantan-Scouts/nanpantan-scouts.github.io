@@ -1,0 +1,11 @@
+weight: 3
+name: "Cubs"
+ages: "8 to 10½"
+meets: "Monday and Thursday, 6:45pm to 8:15pm"
+uniform: "green Cubs sweatshirt and our group necker"
+tagline: "Develop new skills. Soar to great heights. Being a Cub opens up a whole other world."
+image: "img/cubs_group.jpg"
+image_alt: "Cubs with their bikes and helmets, getting ready for a ride"
+url: "/cubs/"
+scouts_url: "https://www.scouts.org.uk/cubs"
+colour: "#23a950"

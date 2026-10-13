@@ -1,0 +1,27 @@
+<section class="home-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="home-heading">{{ site.Params.recent_posts.title | default "Latest News" }}</h2>
+                {{ range first 3 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+                <article class="news-item">
+                    <a href="{{ .RelPermalink }}" class="news-thumb" tabindex="-1" aria-hidden="true">
+                        <img src="{{ .Params.banner | default "img/placeholder.png" | relURL }}" alt="" loading="lazy">
+                    </a>
+                    <div class="news-body">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        <p class="news-date">{{ .Date.Format site.Params.date_format }}</p>
+                        <p>{{ .Summary | plainify | htmlUnescape | truncate 150 }}</p>
+                    </div>
+                </article>
+                {{ end }}
+                <p><a href="{{ "blog/" | relURL }}" class="btn btn-template-main">All news</a></p>
+            </div>
+            <div class="col-md-5">
+                <h2 class="home-heading">On Facebook</h2>
+                <p>Our Facebook page has our latest updates, including which waiting lists are open.</p>
+                {{ partial "facebook-feed.html" 700 }}
+            </div>
+        </div>
+    </div>
+</section>

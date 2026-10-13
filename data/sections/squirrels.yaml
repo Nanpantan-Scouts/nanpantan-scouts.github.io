@@ -1,0 +1,15 @@
+# One file per section. Used by the homepage cards, the section pages, the
+# About page and the FAQ, so change meeting times here and nowhere else.
+weight: 1
+name: "Squirrels"
+ages: "4 to 6"
+# Leave meets empty if not known; pages then ask people to message us.
+meets: ""
+uniform: "red Squirrels sweatshirt and our group necker"
+tagline: "Helping young people gain skills for life at a time when it matters most."
+image: "img/squirrels.jpg"
+image_alt: "Squirrels in their red uniforms walking through a garden"
+url: "/squirrels/"
+scouts_url: "https://www.scouts.org.uk/squirrels"
+# Scouts brand section colour
+colour: "#e22e12"
