@@ -143,34 +143,31 @@ Reference should be made to our WiFi policy which is published on our website an
 
 26. **Variation & Rescheduling**
 
-26.1. The Hirer may request to reschedule a booking without penalty provided written notice is received at least 28 calendar days prior to the scheduled booking date.
+    26.1. The Hirer may request to reschedule a booking without penalty provided written notice is received at least 28 calendar days prior to the scheduled booking date.
 
-26.2. All rescheduling requests are subject to venue availability. If an agreed alternative date cannot be found, the standard cancellation provisions in Clause 27 shall apply.
+    26.2. All rescheduling requests are subject to venue availability. If an agreed alternative date cannot be found, the standard cancellation provisions in Clause 27 shall apply.
 
-26.3. Rescheduling requests received fewer than 28 calendar days prior to the booking will be treated as a cancellation and will be subject to the cancellation fees outlined in Clause 27.
+    26.3. Rescheduling requests received fewer than 28 calendar days prior to the booking will be treated as a cancellation and will be subject to the cancellation fees outlined in Clause 27.
 
 27. **Cancellation by the Hirer**
 
-27.1. Notice of cancellation must be provided in writing to bookings@nanpantanscouts.org.uk and is deemed effective on the date of receipt.
+    27.1. Notice of cancellation must be provided in writing to bookings@nanpantanscouts.org.uk and is deemed effective on the date of receipt.
 
-27.2. Refunds of the hire charge are calculated based on the notice period provided before the hire start time:
+    27.2. Refunds of the hire charge are calculated based on the notice period provided before the hire start time:
 
-```
-28 days or more: Full refund (100%) of the hire charge.
-14 to 27 days: 50% refund of the hire charge.
-Fewer than 14 days: No refund (0%) of the hire charge.
+    - **28 days or more**: Full refund (100%) of the hire charge.
+    - **14 to 27 days**: 50% refund of the hire charge.
+- **Fewer than 14 days**    : No refund (0%) of the hire charge.
 
-```
-
-27.3. The £50 refundable Security Deposit will be returned in full in the event of any cancellation by the Hirer.
+    27.3. The £50 refundable Security Deposit will be returned in full in the event of any cancellation by the Hirer.
 
 28. **Cancellation by NSG (Force Majeure & Unforeseen Events)**
 
-28.1. NSG reserves the right to cancel or terminate any booking due to events beyond its reasonable control, including but not limited to building damage, power or water failure, acts of God, or health and safety risks.
+    28.1. NSG reserves the right to cancel or terminate any booking due to events beyond its reasonable control, including but not limited to building damage, power or water failure, acts of God, or health and safety risks.
 
-28.2. In the event of such cancellation, NSG will notify the Hirer as soon as reasonably practicable and offer the option to reschedule. If no suitable date is available, the Hirer will receive a full refund of all hire fees and the £50 Security Deposit.
+    28.2. In the event of such cancellation, NSG will notify the Hirer as soon as reasonably practicable and offer the option to reschedule. If no suitable date is available, the Hirer will receive a full refund of all hire fees and the £50 Security Deposit.
 
-28.3. NSG’s liability shall be strictly limited to the return of monies paid and shall not extend to indirect, consequential, or third-party expenses (such as catering, entertainment, or equipment hire).
+    28.3. NSG’s liability shall be strictly limited to the return of monies paid and shall not extend to indirect, consequential, or third-party expenses (such as catering, entertainment, or equipment hire).
 
 29. **Refusal of Booking**
 
