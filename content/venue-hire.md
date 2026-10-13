@@ -50,7 +50,7 @@ Perfect for children's parties, yoga classes and community events, our modern bu
 * Spacious main hall with room to run around.
 * Kitchen access included for party food.
 * Indoor and outdoor areas available.
-* Available until 11pm (midnight on Saturdays).
+* Available until 4:30 pm weekdays, 5 pm weekends.
 * **Bouncy castles welcome!**
 
 ### Regular Classes
@@ -270,7 +270,7 @@ Find our standard pricing below, we do have custom rates for registered charitie
 ## Frequently Asked Questions
 
 **What are the opening hours?**
-The hall can be hired until 11pm Sunday–Friday, and until midnight on Saturdays. Please ensure your booking period includes adequate time for both setting up and clearing away.
+The hall can be hired until 4:30 pm Monday–Friday, and until 5 pm on Saturday & Sunday. Please ensure your booking period includes adequate time for both setting up and clearing away.
 
 **How do I pay for my booking?**
 Payment is required by bank transfer to secure your booking.
