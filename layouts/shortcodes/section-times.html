@@ -1,0 +1,17 @@
+{{/* Table of every section's ages and meeting times, from data/sections */}}
+<div class="table-scroll">
+<table class="table-simple">
+    <thead>
+        <tr><th>Section</th><th>Ages</th><th>Meets</th></tr>
+    </thead>
+    <tbody>
+        {{ range sort site.Data.sections "weight" }}
+        <tr>
+            <td><a href="{{ .url | relURL }}">{{ .name }}</a></td>
+            <td>{{ .ages }}</td>
+            <td>{{ .meets | default "Message us for meeting times" }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+</div>

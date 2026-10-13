@@ -1,0 +1,21 @@
+{{/* Photo and key facts for a section page. Reads data/sections/<name>.yaml,
+     where <name> is the page's file name (e.g. content/beavers.md) unless
+     given: {{< section-facts "beavers" >}} */}}
+{{ $name := .Get 0 | default .Page.File.ContentBaseName }}
+{{ with index site.Data.sections $name }}
+<div class="section-facts" style="{{ printf "--section-colour: %s" .colour | safeCSS }}">
+    <img src="{{ .image | relURL }}" alt="{{ .image_alt }}">
+    <dl>
+        <dt>Ages</dt>
+        <dd>{{ .ages }}</dd>
+        <dt>When</dt>
+        <dd>{{ with .meets }}{{ . }}{{ else }}<a href="{{ site.Params.messenger_url }}">Message us</a> for meeting times{{ end }}</dd>
+        <dt>Where</dt>
+        <dd>Our Scout hut, Nanpantan Road, Loughborough LE11 3YE</dd>
+        <dt>Uniform</dt>
+        <dd>A {{ .uniform }}</dd>
+    </dl>
+</div>
+{{ else }}
+{{ errorf "section-facts: no data/sections entry called %q (used in %s)" $name .Page.File.Path }}
+{{ end }}

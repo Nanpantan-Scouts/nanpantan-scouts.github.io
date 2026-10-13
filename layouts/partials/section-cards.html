@@ -1,0 +1,16 @@
+{{/* One card per section, from data/sections */}}
+<div class="row card-row">
+    {{ range sort site.Data.sections "weight" }}
+    <div class="col-xs-6 col-md-3">
+        <a class="section-card" href="{{ .url | relURL }}" style="{{ printf "--section-colour: %s" .colour | safeCSS }}">
+            <img src="{{ .image | relURL }}" alt="{{ .image_alt }}" loading="lazy">
+            <span class="section-card-body">
+                <span class="section-card-name">{{ .name }}</span>
+                <span class="section-card-ages">Ages {{ .ages }}</span>
+                {{ with .meets }}<span class="section-card-meets"><i class="far fa-clock" aria-hidden="true"></i> {{ . }}</span>{{ end }}
+                <span class="section-card-more">Find out more <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+            </span>
+        </a>
+    </div>
+    {{ end }}
+</div>

@@ -1,19 +1,570 @@
-.box-image-text .image {
-  min-height: 190px;
-  max-height: 190px;
+/* Site-specific styles. Loaded after the theme stylesheet (style.purple.css),
+   so anything here wins. Colours follow the Scouts brand. */
+
+:root {
+  --scouts-purple: #7413dc;
+  --scouts-purple-dark: #4f0c96;
+  --scouts-teal: #00a794;
+  --text: #333333;
+  --muted: #666666;
+  --light-bg: #f5f2fa;
 }
 
-.box-image-text .image img {
-  max-height: 190px;
-  margin: auto;
-}
+/* ---------- Basics ---------- */
 
-.box-simple {
-  min-height: 230px;
+body {
+  color: var(--text);
 }
 
 /* Stop images in posts and pages from overflowing on small screens */
 #content img {
   max-width: 100%;
   height: auto;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+/* ---------- Top bar and header ---------- */
+
+#top {
+  background: var(--scouts-purple-dark);
+}
+
+#top a {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-brand img {
+  max-height: 46px;
+  width: auto;
+}
+
+/* "Join Us" in the main menu (menu entry with class nav-cta) */
+.navbar ul.nav > li.nav-cta > a {
+  color: var(--scouts-purple);
+}
+
+@media (min-width: 768px) {
+  .navbar ul.nav > li.nav-cta > a {
+    background: var(--scouts-purple);
+    color: #ffffff;
+    text-decoration: none;
+    border-top-color: transparent;
+    border-radius: 4px;
+    margin: 13px 0 0 10px;
+    padding: 8px 16px;
+  }
+
+  .navbar ul.nav > li.nav-cta > a:hover,
+  .navbar ul.nav > li.nav-cta > a:focus,
+  .navbar ul.nav > li.nav-cta.active > a {
+    background: var(--scouts-purple-dark);
+    color: #ffffff;
+  }
+}
+
+/* Page title band */
+#heading-breadcrumbs {
+  background: var(--light-bg);
+}
+
+#heading-breadcrumbs h1 {
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--scouts-purple);
+}
+
+/* ---------- Pages ---------- */
+
+.page-body {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.page-body h2 {
+  color: var(--scouts-purple);
+  margin-top: 36px;
+}
+
+.page-body h3 {
+  margin-top: 28px;
+}
+
+/* Big call-to-action button, e.g. "Message us on Facebook" */
+.btn-cta {
+  display: inline-block;
+  background: var(--scouts-purple);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  margin: 6px 6px 6px 0;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  background: var(--scouts-purple-dark);
+}
+
+.btn-cta-outline {
+  background: #ffffff;
+  color: var(--scouts-purple) !important;
+  border: 2px solid var(--scouts-purple);
+  padding: 10px 22px;
+}
+
+.btn-cta-outline:hover,
+.btn-cta-outline:focus {
+  background: var(--light-bg);
+}
+
+/* Shaded box for key facts and notes */
+.callout {
+  background: var(--light-bg);
+  border-left: 5px solid var(--scouts-purple);
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+
+.callout > :last-child {
+  margin-bottom: 0;
+}
+
+/* Section page summary: photo + facts */
+.section-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 10px 0 30px;
+  border-top: 6px solid var(--section-colour, var(--scouts-purple));
+  padding-top: 24px;
+}
+
+.section-facts img {
+  flex: 1 1 320px;
+  max-width: 100%;
+  min-width: 0;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.section-facts dl {
+  flex: 1 1 280px;
+  margin: 0;
+}
+
+.section-facts dt {
+  color: var(--section-colour, var(--scouts-purple));
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+
+.section-facts dd {
+  margin: 0 0 14px;
+  font-size: 17px;
+}
+
+/* Meeting times table (FAQ) and other simple tables */
+.table-simple {
+  width: 100%;
+  margin: 16px 0 24px;
+  border-collapse: collapse;
+}
+
+.table-simple th,
+.table-simple td {
+  border: 1px solid #dddddd;
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-simple thead th {
+  background: var(--scouts-purple);
+  color: #ffffff;
+}
+
+.table-simple tbody tr:nth-child(even) {
+  background: #faf8fd;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ---------- Homepage ---------- */
+
+.home-heading {
+  color: var(--scouts-purple);
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.home-hero {
+  position: relative;
+  background-color: var(--scouts-purple);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 90px 0 80px;
+}
+
+/* Purple wash over the photo so the white text stays readable */
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(116, 19, 220, 0.92), rgba(79, 12, 150, 0.8));
+}
+
+.home-hero .container {
+  position: relative;
+}
+
+.home-hero h1 {
+  color: #ffffff;
+  font-size: 44px;
+  max-width: 760px;
+  margin-top: 0;
+}
+
+.home-hero .lead {
+  font-size: 20px;
+  max-width: 640px;
+  margin-bottom: 28px;
+}
+
+.btn-hero-primary,
+.btn-hero-secondary {
+  font-weight: 700;
+  margin: 0 10px 10px 0;
+  border: 2px solid #ffffff;
+}
+
+.btn-hero-primary {
+  background: #ffffff;
+  color: var(--scouts-purple);
+}
+
+.btn-hero-primary:hover,
+.btn-hero-primary:focus {
+  background: var(--light-bg);
+  color: var(--scouts-purple-dark);
+}
+
+.btn-hero-secondary {
+  background: transparent;
+  color: #ffffff;
+}
+
+.btn-hero-secondary:hover,
+.btn-hero-secondary:focus {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.home-hero-note {
+  font-size: 15px;
+  opacity: 0.95;
+}
+
+.home-hero-note a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .home-hero {
+    padding: 50px 0 40px;
+  }
+
+  .home-hero h1 {
+    font-size: 32px;
+  }
+
+  .home-hero .lead {
+    font-size: 18px;
+  }
+}
+
+.home-sections,
+.home-news,
+.home-venue {
+  padding: 50px 0;
+}
+
+.home-news {
+  background: var(--light-bg);
+}
+
+/* Section cards: equal-height cards in a wrapping row */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-row::before,
+.card-row::after {
+  display: none;
+}
+
+.card-row > [class*="col-"] {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-top: 6px solid var(--section-colour, var(--scouts-purple));
+  border-radius: 4px;
+  overflow: hidden;
+  color: var(--text);
+  text-decoration: none !important;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.section-card:hover,
+.section-card:focus {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+  color: var(--text);
+}
+
+.section-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.section-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 18px 18px;
+}
+
+.section-card-name {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--section-colour, var(--scouts-purple));
+}
+
+.section-card-ages {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.section-card-meets {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.section-card-more {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--scouts-purple);
+}
+
+/* Two cards per row on phones: smaller text so they fit */
+@media (max-width: 767px) {
+  .card-row {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .card-row > [class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 16px;
+  }
+
+  .section-card-body {
+    padding: 10px 12px 12px;
+  }
+
+  .section-card-name {
+    font-size: 19px;
+  }
+
+  .section-card-ages,
+  .section-card-more {
+    font-size: 13px;
+  }
+
+  .section-card-meets {
+    font-size: 12px;
+  }
+}
+
+/* News list beside the Facebook feed */
+.news-item {
+  display: flex;
+  gap: 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.news-thumb {
+  flex: 0 0 130px;
+}
+
+.news-thumb img {
+  width: 130px;
+  height: 98px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.news-body h3 {
+  font-size: 19px;
+  margin: 0 0 4px;
+}
+
+.news-body h3 a {
+  color: var(--text);
+}
+
+.news-body h3 a:hover,
+.news-body h3 a:focus {
+  color: var(--scouts-purple);
+}
+
+.news-date {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.news-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .news-thumb {
+    flex-basis: 90px;
+  }
+
+  .news-thumb img {
+    width: 90px;
+    height: 68px;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-news .col-md-5 {
+    margin-top: 30px;
+  }
+}
+
+/* Facebook feed: sized to its column by layouts/partials/facebook-feed.html */
+.fb-feed {
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+}
+
+.fb-feed iframe {
+  display: block;
+  border: none;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.fb-feed-link {
+  margin-top: 10px;
+}
+
+.home-venue img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* ---------- Footer ---------- */
+
+/* The theme's #999 text is hard to read on the #555 footer */
+#footer,
+#footer ul a {
+  color: #e0e0e0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.footer-links li {
+  margin-bottom: 4px;
+}
+
+#footer .footer-links a {
+  color: #ffffff;
+}
+
+/* Theme purple is too dark to read on the footer's dark grey */
+#copyright a {
+  color: #d9c2f7;
+}
+
+/* ---------- Venue hire ---------- */
+
+.booking-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 30px 0;
+}
+
+.booking-option {
+  flex: 1 1 280px;
+  background: var(--light-bg);
+  border-radius: 6px;
+  padding: 24px;
+  text-align: center;
+}
+
+.booking-option h3 {
+  margin-top: 0;
+}
+
+.booking-terms {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Outlook calendar: shown at 80% scale so a whole week fits; scrolls sideways on phones */
+.calendar-embed {
+  width: 100%;
+  height: 800px; /* the 1000px frame at 80% scale */
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.calendar-embed iframe {
+  width: 125%;
+  min-width: 1000px;
+  height: 1000px;
+  border: 0;
+  transform: scale(0.8);
+  transform-origin: 0 0;
 }

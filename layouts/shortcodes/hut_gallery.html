@@ -21,7 +21,7 @@
 
     .venue-gallery-wrapper .owl-theme .owl-controls .owl-buttons div:hover {
         opacity: 1;
-        background: #0095c6 !important; /* Scout Teal hover */
+        background: #7413dc !important; /* Scouts purple hover */
     }
 
     /* Image Caption Styling */
@@ -38,9 +38,10 @@
     }
 </style>
 
-<div class="container venue-gallery-wrapper">
-    <div class="row">
-        <div class="col-md-12">
+{{/* No .container here: the gallery sits inside the page's own column */}}
+<div class="venue-gallery-wrapper">
+    <div>
+        <div>
             <div id="venue-owl" class="owl-carousel owl-theme">
                 
                 {{/* Loop through images. Format: "path::Title" */}}

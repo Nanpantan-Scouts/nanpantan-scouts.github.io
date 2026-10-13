@@ -1,0 +1,42 @@
+{{/* Facebook page feed. Facebook's plugin only accepts widths of 180-500px and
+     doesn't resize itself, so the script sizes it to its column and redraws it
+     when the column width changes (e.g. rotating a phone). */}}
+{{ $page := printf "https://www.facebook.com/%s" site.Params.facebook_site }}
+<div class="fb-feed" data-page="{{ $page }}" data-height="{{ . | default 700 }}">
+    <noscript><p><a href="{{ $page }}">See our latest posts on Facebook</a></p></noscript>
+</div>
+<p class="fb-feed-link">
+    <a href="{{ $page }}" target="_blank" rel="noopener"><i class="fab fa-facebook" aria-hidden="true"></i> Follow us on Facebook</a>
+</p>
+<script>
+(function () {
+  var box = document.querySelector('.fb-feed');
+  if (!box) return;
+  var lastWidth = 0, timer;
+  function render() {
+    var width = Math.max(180, Math.min(500, Math.floor(box.clientWidth)));
+    if (Math.abs(width - lastWidth) < 20) return;
+    lastWidth = width;
+    var height = box.getAttribute('data-height');
+    var src = 'https://www.facebook.com/plugins/page.php?' + [
+      'href=' + encodeURIComponent(box.getAttribute('data-page')),
+      'tabs=timeline', 'width=' + width, 'height=' + height,
+      'small_header=false', 'adapt_container_width=true', 'hide_cover=false', 'show_facepile=true'
+    ].join('&');
+    var frame = document.createElement('iframe');
+    frame.title = 'Latest posts from our Facebook page';
+    frame.src = src;
+    frame.width = width;
+    frame.height = height;
+    frame.setAttribute('scrolling', 'no');
+    frame.setAttribute('allow', 'encrypted-media');
+    frame.setAttribute('loading', 'lazy');
+    box.replaceChildren(frame);
+  }
+  render();
+  window.addEventListener('resize', function () {
+    clearTimeout(timer);
+    timer = setTimeout(render, 300);
+  });
+})();
+</script>

@@ -2,7 +2,8 @@
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ $title_plain := .Title | markdownify | plainify }}
+{{/* seo_title (front matter) is a longer title for browser tabs and search results */}}
+{{ $title_plain := .Params.seo_title | default .Title | markdownify | plainify }}
 <title>{{ $title_plain }}</title>
 <meta name="author" content="{{ .Param "author" }}" />
 {{ $keywords := .Site.Params.defaultKeywords | default (slice "" | first 0) }}
@@ -17,7 +18,7 @@
 {{ hugo.Generator }}
 
 <!-- Font -->
-<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
 
 <!-- Bootstrap and Font Awesome CSS -->
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.2/css/all.css">

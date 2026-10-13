@@ -27,7 +27,7 @@ pluralizelisttitles = false
     name       = "About"
     identifier = "menu.about"
     url        = ""
-    weight     = 2  
+    weight     = 2
 
 [[menu.main]]
     name       = "About Us"
@@ -35,76 +35,81 @@ pluralizelisttitles = false
     weight     = 1
     parent     = "menu.about"
 
+[[menu.main]]
+    name       = "Volunteer With Us"
+    url        = "/volunteer/"
+    weight     = 2
+    parent     = "menu.about"
+
+[[menu.main]]
+    name       = "Admissions Policy"
+    url        = "/admissions/"
+    weight     = 3
+    parent     = "menu.about"
+
+[[menu.main]]
+    name       = "FAQ"
+    url        = "/faq/"
+    weight     = 4
+    parent     = "menu.about"
+
 # No team page yet - restore this entry when there is one
 # [[menu.main]]
 #     name       = "Our Team"
 #     url        = "/team/"
-#     weight     = 2
+#     weight     = 5
 #     parent     = "menu.about"
 
 [[menu.main]]
     name       = "Sections"
     identifier = "menu.sections"
-    # url        = "/img/template-easy-customize.png"
     weight     = 3
 
 [[menu.main]]
     name       = "Squirrels"
-    url        = "/about/#squirrels"
+    url        = "/squirrels/"
     weight     = 1
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Beavers"
-    url        = "/about/#beavers"
+    url        = "/beavers/"
     weight     = 2
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Cubs"
-    url        = "/about/#cubs"
+    url        = "/cubs/"
     weight     = 3
     parent     = "menu.sections"
 
 [[menu.main]]
     name       = "Scouts"
-    url        = "/about/#scouts"
+    url        = "/scouts/"
     weight     = 4
-    parent     = "menu.sections"          
+    parent     = "menu.sections"
 
 [[menu.main]]
-    name       = "Blog"
+    name       = "News"
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 5
 
 [[menu.main]]
-    identifier = "menu.admissions"
-    name       = "Admissions"
-    url        = "/admissions/"
-    weight     = 9   
+    name       = "Venue Hire"
+    identifier = "menu.venue"
+    url        = "/venue-hire/"
+    weight     = 10
 
+# Shown as a button (see .nav-cta in static/css/custom.css)
 [[menu.main]]
-   name       = "Venue Hire"
-   identifier = "menu.venue"
-   url        = "/venue-hire/"
-   weight     = 10    
-       
-
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 100    
-  
+    name       = "Join Us"
+    identifier = "menu.join"
+    url        = "/join/"
+    weight     = 100
+    params     = { class = "nav-cta" }
 
 # Top bar social links menu
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/Nanpantan-Scouts/nanpantan-scouts.github.io"
-    pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -133,6 +138,8 @@ pluralizelisttitles = false
 
     # Social media
     facebook_site = "NanpantanScouts" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    # "Join the waiting list" buttons open a Facebook message to the group
+    messenger_url = "https://m.me/NanpantanScouts"
     twitter_site = "NanpantanScouts" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/NanpantanLinearLogo.jpg"
 
@@ -144,8 +151,9 @@ pluralizelisttitles = false
     latitude = "52.751598"
     longitude = "-1.24461"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "blue"
+    # Our Scouts-purple scheme (static/css/style.purple.css). The theme also has:
+    # default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "purple"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -181,20 +189,27 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>1st Nanpantan Scout Group</p>"
+    about_us = """<p>1st Nanpantan Scout Group gives young people aged 4 to 14 the chance to have adventures, make friends and learn skills for life.</p>
+      <ul class="footer-links">
+        <li><a href="/join/">Join us</a></li>
+        <li><a href="/volunteer/">Volunteer with us</a></li>
+        <li><a href="/venue-hire/">Hire our hut</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+      </ul>"""
     # {year} is replaced with the year the site was last built
     copyright = "Copyright (c) 2015 - {year}, 1st Nanpantan Scout Group; all rights reserved."
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "2 January 2006"
 
     dropdown_mouse_over = false
 
     disabled_logo = false
     logo_text = "1st Nanpantan Scout Group"
 
-    logo = "img/Logo.jpg"
-    logo_small = "img/Logo.jpg"
+    logo = "img/logo-header.png"
+    logo_small = "img/logo-header.png"
     contact_url = "mailto:info@nanpantanscouts.org.uk"
     address = """<p class="text-uppercase"><strong>1st Nanpantan Scout Group</strong>
         <br>Nanpantan Road
@@ -224,14 +239,11 @@ pluralizelisttitles = false
     tags = true
     search = true
 
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
+# Homepage banner
+[params.hero]
+    title = "Everyday adventure for young people in Nanpantan"
+    text = "Squirrels, Beavers, Cubs and Scouts for ages 4 to 14, at our new Scout hut on Nanpantan Road, Loughborough."
+    image = "img/photogrid.jpg"
 
 [params.recent_posts]
     enable = true

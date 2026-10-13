@@ -1,0 +1,15 @@
+{{ with site.Params.hero }}
+<section class="home-hero" style="{{ printf "background-image: url(%s)" ($.Site.Params.hero.image | relURL) | safeCSS }}">
+    <div class="container">
+        <h1>{{ .title }}</h1>
+        <p class="lead">{{ .text }}</p>
+        <p class="home-hero-buttons">
+            <a href="{{ site.Params.messenger_url }}" class="btn btn-lg btn-hero-primary" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-messenger"></i> Join the waiting list
+            </a>
+            <a href="{{ "venue-hire/" | relURL }}" class="btn btn-lg btn-hero-secondary">Hire our hut</a>
+        </p>
+        <p class="home-hero-note">Joining is by Facebook message. <a href="{{ "join/" | relURL }}">How the waiting lists work</a></p>
+    </div>
+</section>
+{{ end }}

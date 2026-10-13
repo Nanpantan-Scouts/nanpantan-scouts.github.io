@@ -1,0 +1,11 @@
+weight: 4
+name: "Scouts"
+ages: "10½ to 14"
+meets: "Tuesday and Wednesday, 7:30pm to 9:15pm"
+uniform: "teal-green Scouts shirt or blouse and our group necker"
+tagline: "Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and go for it."
+image: "img/scouts_group.jpg"
+image_alt: "Scouts paddleboarding on a river"
+url: "/scouts/"
+scouts_url: "https://www.scouts.org.uk/scouts"
+colour: "#004851"
