@@ -147,3 +147,9 @@ Your deposit will be returned within 5 working days once these conditions are me
 **Do I need insurance?**
 * **Commercial/Regular Hirers:** Yes, you are responsible for arranging insurance against third-party claims.
 * **Private Parties:** Please check your own cover. The Scout Group is insured against claims arising from its own negligence only, not yours.
+
+**Is there a minimum age to hire the hall?**
+Yes, the person making the booking (the Hirer) must be at least 21 years of age and must be present for the duration of the event.
+
+**Can I hire the hall for young people's parties?**
+We can only accept parties in the 16-21 year old age group where adults are present all the time, the families live locally (e.g., Nanpantan or members of 1st Nanpantan Scout Group), and no alcohol is served. Parties up to the age of 15 are accepted from all areas. You must ensure an appropriate level of adult supervision throughout the booking. Again, no alcohol can be served.
