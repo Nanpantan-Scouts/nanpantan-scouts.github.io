@@ -41,7 +41,7 @@ The hirer must be at least 21 years of age at the time of booking. The hirer mus
 
 3. **Events for Young People**
 
-We can only accept parties in the 16-21 year old age group where adults are present all the time, the families live locally (e.g., Nanpantan or Loughborough), and no alcohol is served. Parties up to the age of 15 are accepted from all areas. The hirer must ensure an appropriate level of adult supervision throughout the booking. Again, no alcohol can be served.
+We can only accept parties in the 16-21 year old age group where adults are present all the time, the families live locally (e.g., Nanpantan or members of 1st Nanpantan Scout Group), and no alcohol is served. Parties up to the age of 15 are accepted from all areas. The hirer must ensure an appropriate level of adult supervision throughout the booking. Again, no alcohol can be served.
 
 4. **Use of the Premises**
 
