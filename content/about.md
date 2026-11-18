@@ -6,7 +6,7 @@ authors = ["Carl Travis-Roberts"]
 +++
 
 
-Welcome to 1st Nanpantan Scouts. Situated on the south side of Loughborough in Leicestershire, we have sections meeting every weekday evening at our new Scout hut on Nanpantan Road.
+Welcome to 1st Nanpantan Scouts. Situated on the south side of Loughborough in Leicestershire, we have sections meeting on weekday evenings at our new Scout hut on Nanpantan Road.
 
 Scouting provides fun, friendship, exciting activities, contributing to the community and improving life chances in terms of education and employment.
 

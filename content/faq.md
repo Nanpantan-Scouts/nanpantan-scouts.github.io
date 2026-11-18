@@ -13,15 +13,18 @@ Young people aged 4 to 14, in four sections:
 {{< section-times >}}
 
 ### How do I join?
-Send us a message on Facebook to join a waiting list. The best time is before your child turns 4, because Squirrels is where most young people join us. See [Join us](/join/) for how the waiting lists work.
+Send us a message on Facebook to join a waiting list. Children can join the Squirrels waiting list when they're 2 or 3, or the Beavers waiting list when they're 4 or 5. See [Join us](/join/) for how the waiting lists work.
 
 {{< join-button >}}
 
 ### Which waiting lists are open?
 Our lists open and close during the year. Our [Facebook page](https://www.facebook.com/NanpantanScouts) always says which are open.
 
-### My child is older than 4. Can they still join?
-Places in Cubs and Scouts go to young people moving up from our younger sections first, so spaces for newcomers are rare. When one comes up, we advertise it on Facebook. Other Scout groups nearby may have space; our [Admissions Policy](/admissions/#loughborough-scout-groups) lists them.
+### My child's brother or sister already comes. Does that help?
+Yes. You can add them to the Squirrels or Beavers waiting list even when that list is closed. They'll be offered a place based on their age and the date they joined the list.
+
+### My child is 4 or older. Can they still join?
+If they're 4 or 5, they can join our Beavers waiting list while it's open. Places in Cubs and Scouts go to young people moving up from our younger sections first, so spaces for older newcomers are rare. When one comes up, we advertise it on Facebook. Other Scout groups nearby may have space; our [Admissions Policy](/admissions/#loughborough-scout-groups) lists them.
 
 ### Does my child have to come every week?
 We ask everyone to come to at least half of the meetings each term. If that isn't possible, the place may be offered to someone else, unless there are exceptional circumstances.

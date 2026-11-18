@@ -14,7 +14,9 @@ Squirrels meetings are full of games, stories, crafts and activities, indoors an
 
 ## Joining Squirrels
 
-Squirrels places come from our waiting list, and **only children under 4 can be added to it**, so get your child's name down early. When your child turns 4, we offer places in waiting-list order as they become free.
+Squirrels places come from our waiting list, which is for **children aged 2 or 3**, so get your child's name down early. When your child turns 4, we offer places in waiting-list order as they become free.
+
+The list is only open at certain times; our [Facebook page](https://www.facebook.com/NanpantanScouts) says when. If your child has a brother or sister who already comes to 1st Nanpantan, you can add them even when the list is closed.
 
 {{< join-button "Join the waiting list" >}}
 

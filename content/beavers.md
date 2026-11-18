@@ -14,11 +14,13 @@ Beavers play games, make things, explore outdoors, go on visits and earn badges 
 
 ## Joining Beavers
 
-Beavers places are offered to young people on our Squirrels waiting list, so the way in is to [join the Squirrels waiting list](/join/) before your child turns 4. It isn't possible to join the Beavers waiting list any other way.
+Beavers places come from our Beavers waiting list, which is for **children aged 4 or 5**, so get your child's name down early. When your child turns 6, we offer places in waiting-list order as they become free. A place is offered once, on a Tuesday or Wednesday evening depending on where there's space.
 
-Very occasionally a space comes up that we can't fill this way. When that happens we advertise it on our [Facebook page](https://www.facebook.com/NanpantanScouts).
+The list is only open at certain times; our [Facebook page](https://www.facebook.com/NanpantanScouts) says when. If your child has a brother or sister who already comes to 1st Nanpantan, you can add them even when the list is closed.
 
-{{< join-button "Ask about Beavers" >}}
+{{< join-button "Join the waiting list" >}}
+
+[How our waiting lists work](/join/)
 
 At 8, Beavers move up to [Cubs](/cubs/).
 

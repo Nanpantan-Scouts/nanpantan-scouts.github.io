@@ -4,29 +4,42 @@ description = "How to join 1st Nanpantan Scouts in Loughborough: our waiting lis
 keywords = ["join", "waiting list", "Squirrels", "Beavers", "Cubs", "Scouts", "Loughborough"]
 +++
 
-We'd love your child to join us. Places are popular, so we use waiting lists, and the best time to get a name down is **before your child turns 4**.
+We'd love your child to join us. Places are popular, so we use waiting lists:
 
-To join a waiting list, send us a message on Facebook. Tell us your child's age and which section you're interested in.
+- the **Squirrels** waiting list, for children aged **2 or 3**
+- the **Beavers** waiting list, for children aged **4 or 5**
+
+To join a waiting list, send us a message on Facebook. Tell us your child's age, which section you're interested in, and whether they have a brother or sister who already comes to 1st Nanpantan.
 
 {{< join-button >}}
 
-Our waiting lists open and close during the year, and our [Facebook page](https://www.facebook.com/NanpantanScouts) always says which are open.
+Our waiting lists open and close during the year, and our [Facebook page](https://www.facebook.com/NanpantanScouts) always says which are open. You can only join a list while it's open, unless your child has a brother or sister with us (see below).
 
 ## How places are offered
 
 <div class="callout">
 
-**Squirrels (ages 4 to 6)** is where most young people join us.
+**Squirrels (ages 4 to 6)**
 
-- Only children under 4 can be added to the Squirrels waiting list, so add your child as early as you can.
-- When your child turns 4, a place is offered in waiting-list order, as places become free.
-- A Squirrels place is offered once. If you don't take it up, you can move to the Beavers waiting list instead.
+- Children aged 2 or 3 can be added to the Squirrels waiting list, so add your child as early as you can.
+- When your child turns 4, a place is offered in waiting-list order, as places become free. How many places there are depends on how many Squirrels are moving up to Beavers that term.
+- A Squirrels place is offered once and can't be postponed. If you don't take it up, or don't feel your child is ready, you can move to the Beavers waiting list instead.
 
 </div>
 
 <div class="callout">
 
-**Beavers (ages 6 to 8)** places come from the Squirrels waiting list. It isn't possible to join the Beavers list any other way.
+**Beavers (ages 6 to 8)**
+
+- Children aged 4 or 5 can be added to the Beavers waiting list, so add your child as early as you can.
+- When your child turns 6, a place is offered in waiting-list order, as places become free. How many places there are depends on how many Beavers are moving up to Cubs that term.
+- A Beavers place is offered once, on a Tuesday or Wednesday evening depending on where there's space. If you don't take it up, your child comes off our waiting lists.
+
+</div>
+
+<div class="callout">
+
+**Brothers and sisters.** If your child already has a brother or sister at 1st Nanpantan, you can add them to the Squirrels or Beavers waiting list **even when that list is closed**. They'll be offered a place based on their age and the date they joined the list.
 
 </div>
 
