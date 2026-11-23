@@ -561,6 +561,161 @@ html {
   font-weight: 700;
 }
 
+/* Availability week view (layouts/shortcodes/availability-calendar.html) */
+.availability [hidden] {
+  display: none !important;
+}
+
+.availability-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0 14px;
+}
+
+.availability-btn {
+  flex: 0 0 auto;
+  background: #ffffff;
+  color: var(--scouts-purple);
+  border: 2px solid var(--scouts-purple);
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 6px 12px;
+}
+
+.availability-btn:hover,
+.availability-btn:focus {
+  background: var(--light-bg);
+}
+
+.availability-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+  background: #ffffff;
+}
+
+.availability-current {
+  margin: 0;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: var(--scouts-purple);
+}
+
+.availability.is-interactive .availability-week-heading {
+  display: none;
+}
+
+.availability-days {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: grid;
+  gap: 8px;
+}
+
+.availability-day {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+  align-items: start;
+  align-content: start;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: #ffffff;
+}
+
+.availability-date {
+  font-weight: 800;
+}
+
+.availability-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.availability-slot {
+  display: block;
+  border-radius: 3px;
+  padding: 3px 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.availability-time {
+  white-space: nowrap;
+}
+
+.availability-slot.is-free {
+  background: #e3f4e8;
+  color: #17602e;
+}
+
+.availability-slot.is-booked {
+  background: #f1eef5;
+  color: #555555;
+}
+
+.availability-day.is-today {
+  border: 2px solid var(--scouts-purple);
+}
+
+.availability-day.is-past {
+  opacity: 0.45;
+}
+
+.availability-updated,
+.availability-stale {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.availability-stale {
+  color: #8a1c0f;
+}
+
+@media (max-width: 480px) {
+  .availability-btn {
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+
+  .availability-current {
+    font-size: 16px;
+  }
+}
+
+/* Seven columns, like a calendar, where there's room */
+@media (min-width: 992px) {
+  .availability-days {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .availability-day {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px 8px;
+  }
+
+  .availability-slot {
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+
+  /* "Free" / "Booked" on one line, the time on the next */
+  .availability-kind,
+  .availability-time {
+    display: block;
+  }
+
+  .availability-kind {
+    font-weight: 700;
+  }
+}
+
 /* Outlook calendar: shown at 80% scale so a whole week fits; scrolls sideways on phones */
 .calendar-embed {
   width: 100%;

@@ -20,7 +20,7 @@ The site is a static site built with [Hugo](https://gohugo.io/), using the [Univ
 | Site generator | Hugo **extended**, version **0.150.0**, the same version the deploy workflow uses |
 | Theme | `github.com/devcows/hugo-universal-theme`, pulled in as a [Hugo Module](https://gohugo.io/hugo-modules/) (see `go.mod`). Hugo needs **Go** installed to download it. |
 | Hosting | GitHub Pages, custom domain set by `CNAME` |
-| Deployment | `.github/workflows/deploy-hugo.yml` runs on every push to `main`: it runs `hugo --minify` and publishes the `public/` folder |
+| Deployment | `.github/workflows/deploy-hugo.yml` runs on every push to `main`, and every hour to refresh the venue availability calendar: it runs `hugo --minify` and publishes the `public/` folder |
 
 ## What's where
 
@@ -31,7 +31,8 @@ The site is a static site built with [Hugo](https://gohugo.io/), using the [Univ
 | `content/blog/` | News posts, one file per post |
 | `data/sections/` | One file per section (Squirrels, Beavers, Cubs, Scouts): ages, **meeting times**, uniform, photo and colour. The homepage cards, section pages, About page and FAQ all read from here, so change meeting times here only. |
 | `layouts/` | Our customised copies of theme templates. A file here replaces the theme file with the same path. `layouts/index.html` is the homepage, built from the `home-*.html` partials. |
-| `layouts/shortcodes/` | Snippets you can use in pages: `section-facts`, `section-cards` and `section-times` (from `data/sections`), `join-button` (the "Message us on Facebook" button), `booking-options` (venue booking boxes) and `hut_gallery` (venue photo gallery) |
+| `layouts/shortcodes/` | Snippets you can use in pages: `section-facts`, `section-cards` and `section-times` (from `data/sections`), `join-button` (the "Message us on Facebook" button), `availability-calendar` (venue availability), `booking-options` (venue booking boxes) and `hut_gallery` (venue photo gallery) |
+| `scripts/build_availability.py` | Builds the venue availability calendar from the Outlook calendar (see [Venue availability calendar](#venue-availability-calendar)) |
 | `static/` | Images, CSS, JavaScript and documents, copied to the site as-is: `static/img/Logo.jpg` becomes `/img/Logo.jpg`. Only our own files and ones we've changed live here; the theme supplies the rest. |
 | `static/css/style.purple.css` | The theme's colour scheme, changed to Scouts purple and the Nunito Sans font. Leave it alone and put changes in `static/css/custom.css`. |
 | `i18n/en.yaml` | Our changes to the theme's built-in English text (buttons, labels and so on) |
@@ -193,6 +194,23 @@ You need **Hugo extended** and **Go**. Don't use `sudo apt install hugo` or `gol
 3. The **Deploy Hugo site to Pages** workflow runs automatically. You can follow it in the repo's **Actions** tab, and the live site updates a minute or two after it goes green.
 
 To upgrade Hugo, change `HUGO_VERSION` in **both** `.github/workflows/deploy-hugo.yml` and `Dockerfile`, then check the site locally.
+
+## Venue availability calendar
+
+The venue hire page shows a week-by-week list of booked and free times. It comes from the hut's published Outlook calendar, so keep managing bookings in Outlook as usual.
+
+- Every hour, the deploy workflow runs `scripts/build_availability.py`. It reads the Outlook calendar feed, works out each day's booked and free times within the hire hours, and writes `data/availability.json`, which the page displays. That file is generated, so it isn't kept in git.
+- The settings are in `hugo.toml` under `[params.venue_availability]`: the feed address, how many weeks to show, and the **hire hours**. If the hire hours change, update them there as well as on the venue hire page.
+- The calendar only ever shows "Booked" or "Free". Outlook publishes the calendar as busy times only, without names or details.
+- If the feed can't be read, the site still deploys, and the page shows the Outlook calendar instead. If the data is more than 6 hours old, the page warns visitors and links to the Outlook calendar.
+- **GitHub pauses hourly runs if the repository has had no activity for 60 days.** If the "Updated" time on the venue hire page stops changing, open the **Actions** tab, choose **Deploy Hugo site to Pages** and re-enable or run the workflow.
+
+To see the calendar when running the site locally, build the data first (otherwise the page shows the Outlook calendar):
+
+```bash
+pip install -r scripts/requirements.txt
+python3 scripts/build_availability.py
+```
 
 ## Troubleshooting
 

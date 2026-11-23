@@ -10,3 +10,6 @@ node_modules
 package.json
 public/
 .hugo_build.lock
+
+# Built by scripts/build_availability.py when the site deploys
+data/availability.json
