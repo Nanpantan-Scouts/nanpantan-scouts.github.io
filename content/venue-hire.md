@@ -15,6 +15,23 @@ authors = ["Carl Travis-Roberts"]
 * **Kitchen Facilities:** Fully equipped kitchen for catering and refreshments.
 * **Flexible Spaces:** Flexible main hall to suit your needs.
 
+<div class="callout">
+
+**How to book**
+
+1. Check the availability calendar for a free time.
+2. Book a one-off event, or enquire about regular hire, using the buttons under the calendar.
+
+<a href="#availability-calendar" class="btn-cta"><i class="far fa-calendar-alt" aria-hidden="true"></i> Check Availability</a>
+
+</div>
+
+## Availability Calendar
+
+{{< availability-calendar >}}
+
+### Found a free time?
+
 {{< booking-options >}}
 
 {{< hut_gallery images="/img/venue/front.jpg::Venue Front,/img/venue/main-hall.jpg::Spacious Main Hall,/img/venue/kitchen.jpg::Fully Equipped Kitchen,/img/venue/outside.jpg::Outside Area" >}}
@@ -83,15 +100,9 @@ Find our standard pricing below. We have custom rates for registered charities a
 
 ## Ready to Book?
 
-{{< booking-options >}}
+Check the availability calendar for a free time first, then book or enquire using the buttons just below it.
 
-## Calendar
-
-<p class="text-center"><strong>Change from Month to Week view (top right) to see hourly availability.</strong></p>
-
-<div class="calendar-embed">
-  <iframe title="Venue availability calendar" src="https://outlook.office365.com/owa/calendar/c7e0c5471b124c51b4257bce71c14f9f@nanpantanscouts.org.uk/07f1e90a2eb3455196bb8fd7dd8851058626683598447757973/calendar.html?view=week"></iframe>
-</div>
+<a href="#availability-calendar" class="btn-cta"><i class="far fa-calendar-alt" aria-hidden="true"></i> Check Availability</a>
 
 ## Frequently Asked Questions
 

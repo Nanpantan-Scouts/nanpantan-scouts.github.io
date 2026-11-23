@@ -1,0 +1,14 @@
+{{/* Venue availability calendar (venue_calendar_url in hugo.toml). Embedded
+     on larger screens; on phones the embed is too cramped to use, so they get
+     a button that opens the calendar full screen instead. */}}
+{{ $url := site.Params.venue_calendar_url }}
+<p>Anything shown on the calendar is already booked. Use the arrows to move between dates, and the buttons at the top right to switch between week and month views.</p>
+
+<div class="calendar-embed hidden-xs">
+    <iframe title="Venue availability calendar" src="{{ $url }}" loading="lazy"></iframe>
+</div>
+<p class="hidden-xs"><a href="{{ $url }}" target="_blank" rel="noopener">Open the calendar in a new tab</a></p>
+
+<p class="visible-xs-block">
+    <a href="{{ $url }}" class="btn-cta" target="_blank" rel="noopener"><i class="far fa-calendar-alt" aria-hidden="true"></i> Open the availability calendar</a>
+</p>
