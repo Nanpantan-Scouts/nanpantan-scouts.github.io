@@ -15,7 +15,7 @@ Some parts of the site come from other companies. When you view those parts, you
 
 - **Facebook:** the feed of our Facebook posts on the homepage. Messages you send us through Facebook or Messenger are handled by Facebook.
 - **Jotform:** the venue hire booking and enquiry forms. We receive what you enter so we can reply and manage your booking.
-- **Microsoft Outlook:** the venue availability calendar.
+- **Microsoft Outlook:** our full booking calendar, if you open it from the venue hire page.
 - **Flickr:** photo albums embedded in some news posts.
 - **Google Fonts, Font Awesome, Bootstrap and jQuery:** fonts, icons and page code loaded from their servers.
 - **Google Search:** the search box on news pages sends your search to Google.

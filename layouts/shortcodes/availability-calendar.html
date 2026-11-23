@@ -1,8 +1,91 @@
-{{/* Venue availability calendar (venue_calendar_url in hugo.toml). Embedded
-     on larger screens; on phones the embed is too cramped to use, so they get
-     a button that opens the calendar full screen instead. */}}
+{{/* Venue availability: one week at a time, built from data/availability.json
+     (written by scripts/build_availability.py from the Outlook calendar feed
+     when the site deploys). Without that file, e.g. on a local build, falls
+     back to the Outlook calendar itself. */}}
 {{ $url := site.Params.venue_calendar_url }}
-<p>Anything shown on the calendar is already booked. Use the arrows to move between dates, and the buttons at the top right to switch between week and month views.</p>
+{{ with site.Data.availability }}
+<div class="availability" data-generated="{{ .generated }}">
+    <p>Hire hours are {{ .hours.weekday }} on weekdays and {{ .hours.weekend }} at weekends. A free time isn't reserved for you until we've confirmed your booking.</p>
+
+    <div class="availability-nav" hidden>
+        <button type="button" class="availability-btn availability-prev"><i class="fas fa-chevron-left" aria-hidden="true"></i> Previous<span class="hidden-xs"> week</span></button>
+        <p class="availability-current" aria-live="polite"></p>
+        <button type="button" class="availability-btn availability-next">Next<span class="hidden-xs"> week</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+
+    {{ range .weeks }}
+    <section class="availability-week" data-start="{{ .start }}" data-label="{{ .label }}">
+        <h3 class="availability-week-heading">{{ .label }}</h3>
+        <ol class="availability-days">
+            {{ range .days }}
+            <li class="availability-day is-{{ .status }}" data-date="{{ .date }}">
+                <span class="availability-date">{{ .label }}</span>
+                <span class="availability-slots">
+                    {{ range .slots }}
+                    <span class="availability-slot is-{{ .kind }}"><span class="availability-kind">{{ if eq .kind "free" }}Free{{ else }}Booked{{ end }}</span> <span class="availability-time">{{ .time }}</span></span>
+                    {{ end }}
+                </span>
+            </li>
+            {{ end }}
+        </ol>
+    </section>
+    {{ end }}
+
+    <p class="availability-stale" hidden><strong>This may be out of date.</strong> Please check the <a href="{{ $url }}" target="_blank" rel="noopener">full calendar</a> before booking.</p>
+    <p class="availability-updated">Updated <time datetime="{{ .generated }}">{{ .generated }}</time> from our booking calendar, about once an hour. <a href="{{ $url }}" target="_blank" rel="noopener">See the full calendar in Outlook</a></p>
+</div>
+
+<script>
+(function () {
+  var root = document.querySelector('.availability');
+  if (!root) return;
+  var weeks = Array.prototype.slice.call(root.querySelectorAll('.availability-week'));
+  var nav = root.querySelector('.availability-nav');
+  var label = root.querySelector('.availability-current');
+  var prev = root.querySelector('.availability-prev');
+  var next = root.querySelector('.availability-next');
+
+  function iso(d) {
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  var today = iso(new Date());
+
+  // Grey out past days and highlight today
+  root.querySelectorAll('.availability-day').forEach(function (day) {
+    var date = day.getAttribute('data-date');
+    if (date < today) day.classList.add('is-past');
+    if (date === today) day.classList.add('is-today');
+  });
+
+  // Show one week at a time, starting with this week
+  var current = 0;
+  weeks.forEach(function (week, i) {
+    if (week.getAttribute('data-start') <= today) current = i;
+  });
+  function show(i) {
+    current = Math.max(0, Math.min(weeks.length - 1, i));
+    weeks.forEach(function (week, j) { week.hidden = j !== current; });
+    label.textContent = weeks[current].getAttribute('data-label');
+    prev.disabled = current === 0;
+    next.disabled = current === weeks.length - 1;
+  }
+  prev.addEventListener('click', function () { show(current - 1); });
+  next.addEventListener('click', function () { show(current + 1); });
+  root.classList.add('is-interactive');
+  nav.hidden = false;
+  show(current);
+
+  // When the data was last refreshed, and a warning if that was a while ago
+  var generated = new Date(root.getAttribute('data-generated'));
+  var time = root.querySelector('.availability-updated time');
+  time.textContent = generated.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+  if (Date.now() - generated.getTime() > 6 * 60 * 60 * 1000) {
+    root.querySelector('.availability-stale').hidden = false;
+  }
+})();
+</script>
+{{ else }}
+<p>Anything shown on the calendar is already booked. Use the arrows to move between dates.</p>
 
 <div class="calendar-embed hidden-xs">
     <iframe title="Venue availability calendar" src="{{ $url }}" loading="lazy"></iframe>
@@ -12,3 +95,4 @@
 <p class="visible-xs-block">
     <a href="{{ $url }}" class="btn-cta" target="_blank" rel="noopener"><i class="far fa-calendar-alt" aria-hidden="true"></i> Open the availability calendar</a>
 </p>
+{{ end }}
